@@ -4,10 +4,11 @@ title: Timisoara CTF Qualifiers 2019
 ---
 
 Introduction
+------
 
 I recently participated in the Timisoara CTF Quals 2019 under the team acsii. We finished 12th by the end of the 5 days. The available challenge categories were: Crypto, Forensics, Reverse Engineering, Exploit, Web, Programming. The following are the challenges I solved.
 
-
+---
 
 
 Crypto
@@ -67,6 +68,8 @@ Web
 The link provided lead us to a completely empty site (actually just all white). Inpsecting element also didn't show anything in the HTML. However we are provided with the source code of the site which is as follows: 
 
 ```
+<?php
+
 if (!empty($_SERVER['QUERY_STRING'])) {
     $query = $_SERVER['QUERY_STRING'];
     $res = parse_str($query);
