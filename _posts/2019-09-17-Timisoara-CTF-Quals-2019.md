@@ -15,7 +15,7 @@ Crypto
 ------
 #### Don't Trust Time [200]
 
-We are given 3 files: source code, binary, encoded flag. By analysing the source code, we can see that there is a seed determined by time(0). A quick google tells us time(0) returns us the current unix timestamp in seconds. This means, if we know when the program was executed, we are able to find to seed. Lucky for us, we can rougly estimate the time from the metadata of the encoded flag file. `Exiftool` gives us the following details:
+We are given 3 files: source code, binary, encoded flag. By analysing the source code, we can see that there is a seed determined by time(0). A quick google tells us time(0) return s us the current unix timestamp in seconds. This means, if we know when the program was executed, we are able to find to seed. Lucky for us, we can rougly estimate the time from the metadata of the encoded flag file. `Exiftool` gives us the following details:
 
 ```
 ExifTool Version Number         : 10.80
@@ -123,7 +123,7 @@ Web
 ------
 #### Secret Key of Swag [150]
 
-The link provided lead us to a completely empty site (actually just all white). Inpsecting element also didn't show anything in the HTML. However we are provided with the source code of the site which is as follows: 
+The link provided lead us to a completely empty site (actually just all white). Inspecting element also didn't show anything in the HTML. However we are provided with the source code of the site which is as follows: 
 
 ```php
 <?php
@@ -155,7 +155,7 @@ if ($action === 'login') {
 ?>
 ```
 
-From the source code, we see in order to echo the flag, 2 conditions need to be true: `$action === 'login'` and `$processed_key === 'hax0r'`. The first part is simple enough. We just need to set `actoin=login` in the get parameters which will be set in the line `$action = $res['action']`. 
+From the source code, we see in order to echo the flag, 2 conditions need to be true: `$action === 'login'` and `$processed_key === 'hax0r'`. The first part is simple enough. We just need to set `action=login` in the get parameters which will be set in the line `$action = $res['action']`. 
 
 At first glance, the second condition seems like a much harder task since it converts our input for `$key` to uppercase. However, in the source code, we also see a `parse_str($query)` which has the vulnerability which can be exploited to overwrite values. This means that we need not set a value for `$key` and can instead directly overwrite `$processed_key`. Hence, our payload would be:
 
