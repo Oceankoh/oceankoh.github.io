@@ -30,7 +30,7 @@ Error                           : Unknown file type
 ```
 Knowing this, we can simply convert the timestamp in the metadata to seconds using online tools, and we get `1567532613`. Using this value, we can brute the seed backwards to account for execution time of the code which may have affected the value of the seed. However, for this challenge, the execution time is quite fast(around 0.007s) which meant the seed was the converted time. Modifying the given source code a little, we have:
 
-```
+```c
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -125,7 +125,7 @@ Web
 
 The link provided lead us to a completely empty site (actually just all white). Inpsecting element also didn't show anything in the HTML. However we are provided with the source code of the site which is as follows: 
 
-```
+```php
 <?php
 
 if (!empty($_SERVER['QUERY_STRING'])) {
