@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: Ocean
-  avatar: leonids-logo.png
+  avatar: water.png
   job: Student
   bio: "Slightly overgrown"
   email:
@@ -70,6 +70,9 @@ owner:
   reddit: #username
   telegram: #username
 
+collections:
+  projects:
+    output: true
 
 # Google Analytics
 google_analytics: UA-152895693-1

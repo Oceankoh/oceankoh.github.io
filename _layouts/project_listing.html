@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% for project in site.projects %}
+<section class="post">
+  <header class="post-header">
+    <div class="post-meta">
+      <span class="post-date">
+        {{ project.date | date: "%-d %b %Y" | upcase }}
+      </span>
+      {% if project.categories.size > 0 %}
+      •
+      {% for cat in project.categories %}
+        <a class="post-cat">{{ cat }}</a>
+        {% unless forloop.last %}
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
+    </div>
+    <h3>
+      <a href="{{ site.url }}{{ project.url }}" class="post-title" title="{{ project.title | escape }}">{{ project.title }}</a>
+      {% if project.link %}
+      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="fa fa-external-link"></i></a>
+      {% endif %}
+    </h3>
+    </header>
+
+    {% if project.excerpt %}
+    <div class="post-description">
+        {{ project.excerpt }}
+    </div>
+    {% endif %}
+
+</section>
+{% endfor %}
