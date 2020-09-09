@@ -50,11 +50,18 @@ Manual Conversion to Rectangular:
 1. cPolyRoots( _polynomial_ )
 	`menu`+`3`+`3`+`3`
 
- ## Polynomials
- ### Roots of polynomials
+## Polynomials
+### Roots of polynomials
  * Sum of Roots = $-\frac{b}{a}$
  * Product of Roots = $(-1)^n\times\frac{constant}{a}$
  * _Cubic equation_: $\alpha\beta+\beta\gamma+\alpha\gamma=\frac{c}{a}$
 
 ### Useful tricks
 * $\alpha^2+\beta^2+\gamma^2=(\alpha+\beta+\gamma)^2-2(\alpha\beta+\beta\gamma+\alpha\gamma)$
+
+## Functions
+### Transformations
+* Order of transformations
+$y=cf(bx+a)+d$
+
+![](https://useruploads.socratic.org/uQFLN3t1QTWS2uRsX2qF_transformation-rules-graphs.png)
