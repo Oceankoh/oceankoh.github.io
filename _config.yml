@@ -73,6 +73,8 @@ owner:
 collections:
   projects:
     output: true
+  notes:
+    output: true
 
 # Google Analytics
 google_analytics: UA-152895693-1
