@@ -8,46 +8,55 @@ title: Quik Maf Noats
 
 Manual Conversion to Modulus-Argument:
 1. Find Modulus, $r$
-2. Find Argument, $\theta$
+2. Find Argument, $\theta$ 
+
 	$\alpha=\tan^{-1}|\frac{b}{a}|$ 
 	![](https://qph.fs.quoracdn.net/main-qimg-d0e9919f56b55b5e81460a2a537eda53){:width="400"}
+
 3. Express in $r(\cos\theta+i\sin\theta)$ or $re^{i\theta}$
 
 ### Modulus-Argument/Polar/Trigonometrical Form ($r(\cos\theta + i\sin\theta)$)
 
-Manual Conversion to Rectangular:
-1. Find $\alpha$
-*	 *$0<\theta < \frac{\pi}{2}:$
+#### Manual Conversion to Rectangular:
+
+Find $\alpha$
+
+* $0<\theta < \frac{\pi}{2}:$
+
 	$\alpha=\theta$
 	
-*	$\frac{\pi}{2}<\theta < \pi$:
+* $\frac{\pi}{2}<\theta < \pi$:
+
 	$\alpha=\pi-\theta$
 	
-*	$-\frac{\pi}{2}<\theta<0$:
+* $-\frac{\pi}{2}<\theta<0$:
+
 	$\alpha=-\theta$
 	
-*	$-\frac{\pi}{2}<\theta < -\frac{\pi}{2}$:
+* $-\frac{\pi}{2}<\theta < -\frac{\pi}{2}$:
+
 	$\alpha=-(\pi-\theta)$
 
-2. Find $\tan\alpha$, the ratio between imaginary and real parts
-	$a=1$
-	$b=\tan\alpha$
+Find $\tan\alpha$, the ratio between imaginary and real parts
+
+$a=1, b=\tan\alpha$
 	
-3. Multiply $a$ and $b$ by the modulus $r$
-4. Check the sign of $a$ and $b$ to ensure it is in the correct quadrant as denoted by $\theta$
+Multiply $a$ and $b$ by the modulus $r$
+Check the sign of $a$ and $b$ to ensure it is in the correct quadrant as denoted by $\theta$
 
 ### Euler/Exponential form ($re^{i\theta}$)
 
-Manual Conversion to Rectangular:
-1. Same as from Modulus-Argument form
+#### Manual Conversion to Rectangular:
+Same as from Modulus-Argument form
 
 ### Finding (complex) roots of polynomial
 #### Manual Method
-1. Quadratic Formula (Degree 2 polynomial)
-2. Factorize then use Quadratic formula (Degree 3 and above)
+* Quadratic Formula (Degree 2 polynomial)
+* Factorize then use Quadratic formula (Degree 3 and above)
 
 #### Using GDC
-1. cPolyRoots( _polynomial_ )
+* cPolyRoots( _polynomial_ )
+
 	`menu`+`3`+`3`+`3`
 
 ## Polynomials
@@ -58,13 +67,16 @@ Manual Conversion to Rectangular:
 
 ### Useful tricks
 * $\alpha^2+\beta^2+\gamma^2=(\alpha+\beta+\gamma)^2-2(\alpha\beta+\beta\gamma+\alpha\gamma)$
+* Finding new polynomial: 
+	1. Find relation between new roots $y$ and old roots $x$
+	2. Substitute $x=f(y)$ into original polynomial equation
 
 ## Functions
 ### Transformations
 * Order of transformations
 $y=cf(bx+a)+d$
 
-![](https://useruploads.socratic.org/uQFLN3t1QTWS2uRsX2qF_transformation-rules-graphs.png)
+![](https://useruploads.socratic.org/uQFLN3t1QTWS2uRsX2qF_transformation-rules-graphs.png){:width="750"}
 
 ### Common graphs
 #### Trigonometry 
@@ -81,5 +93,5 @@ $y=cf(bx+a)+d$
 
 
 ## Circular Measure
-![](https://i1.wp.com/www.greatmathsteachingideas.com/wp-content/uploads/2015/11/Circle-theorems-flash-cards.jpg?fit=1024%2C723)
+![](https://i1.wp.com/www.greatmathsteachingideas.com/wp-content/uploads/2015/11/Circle-theorems-flash-cards.jpg?fit=1024%2C723){:width="750"}
 
