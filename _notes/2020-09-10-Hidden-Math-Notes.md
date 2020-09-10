@@ -157,6 +157,8 @@ To Parametric:
 To Cartesian:
 * Rewrite the dot product in to a linear form
 
+Distance of Plane from Origin = $\frac{\|D\|}{\|\textbf n\|}$
+
 #### Intersecting planes
 
 1. Convert equations to Cartesian Form
@@ -175,10 +177,10 @@ To Cartesian:
 ### Shapes with vectors
 
 * Area of triangle = 
-$\frac{1}{2}|a\times b|$
+$\frac{1}{2}|\textbf{a}\times \textbf{b}|$
 * Area of parallelogram = 
-$|a\times b|$
+$|\textbf{a}\times \textbf{b}|$
 * Volume of parallelepiped = 
-$|a\cdot (b\times c)|$
+$|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
 * Volume of tetrahedron = 
-$\frac{1}{6}|a\cdot (b\times c)|$
+$\frac{1}{6}|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
