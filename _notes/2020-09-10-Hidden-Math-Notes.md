@@ -10,7 +10,7 @@ Manual Conversion to Modulus-Argument:
 1. Find Modulus, $r$
 2. Find Argument, $\theta$
 	$\alpha=\tan^{-1}|\frac{b}{a}|$ 
-	![](https://qph.fs.quoracdn.net/main-qimg-d0e9919f56b55b5e81460a2a537eda53)
+	![](https://qph.fs.quoracdn.net/main-qimg-d0e9919f56b55b5e81460a2a537eda53){:width="400"}
 3. Express in $r(\cos\theta+i\sin\theta)$ or $re^{i\theta}$
 
 ### Modulus-Argument/Polar/Trigonometrical Form ($r(\cos\theta + i\sin\theta)$)
@@ -65,3 +65,15 @@ Manual Conversion to Rectangular:
 $y=cf(bx+a)+d$
 
 ![](https://useruploads.socratic.org/uQFLN3t1QTWS2uRsX2qF_transformation-rules-graphs.png)
+
+### Common graphs
+#### Trigonometry 
+![](https://i.pinimg.com/originals/f7/19/e7/f719e7c00ada7f8bd5320d4909fc304d.png){:width="750"}
+
+
+#### Inverse Trigonometry 
+![](https://lh3.googleusercontent.com/proxy/g-Kuxdz-fwmkBpq2FnSzMKyHVRNMmgkjChCDZ7yXr51_kQJSf8PC6AbCEgNVu9mtzlaUb-Qz5iCPdKb2UNyrwO2VjZ1-6ZI8D9OL178lAspkHKU){:width="750"}
+
+
+#### Reciprocal Function
+![](https://lh3.googleusercontent.com/proxy/6y1G-PEhN5MYg0V-gY-RTp7elSLoCLSp3kDmvfWXa6_D56AQrXLUnbZWFX5USp3XstpOnVyvY8UBTYdvOdo1VFZdARz3_uqfu2YxTms2LBQD3TE1r1I){:width="500"}
