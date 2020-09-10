@@ -59,19 +59,20 @@ Same as from Modulus-Argument form
 
 	`menu`+`3`+`3`+`3`
 
-## Polynomials
-### Roots of polynomials
+
+## Functions
+### Theory of Equations
  * Sum of Roots = $-\frac{b}{a}$
  * Product of Roots = $(-1)^n\times\frac{constant}{a}$
  * _Cubic equation_: $\alpha\beta+\beta\gamma+\alpha\gamma=\frac{c}{a}$
 
-### Useful tricks
+##### Useful tricks
+
 * $\alpha^2+\beta^2+\gamma^2=(\alpha+\beta+\gamma)^2-2(\alpha\beta+\beta\gamma+\alpha\gamma)$
 * Finding new polynomial: 
 	1. Find relation between new roots $y$ and old roots $x$
 	2. Substitute $x=f(y)$ into original polynomial equation
 
-## Functions
 ### Transformations
 * Order of transformations
 $y=cf(bx+a)+d$
