@@ -53,6 +53,13 @@ Same as from Modulus-Argument form
 * cPolyRoots( _polynomial_ )  
 `menu`+`3`+`3`+`3`
 
+## Mathematical Induction
+### Free marks statements
+* Let $P_n$ be the proposition $\cdots\ ,\ where\ n\in\cdots$
+* $n=1,\ LHS=\cdots,\ RHS=\cdots\ $ Thus, since $\ LHS=RHS,\ P_1$ is true
+* $n=k$ Assume $P_k$ is true for some $n=k,\ k\in\cdots$
+* $n=k+1$ To show $P_{k+1}$ is true, _prove_, thus $P_{k+1}$ is true whenever $P_k$ is true
+* Since $P_1$ is true and $P_k$ is true $\implies\ P_{k+1}$ is true, by mathematical induction, $P_n$ is true for $n\in\cdots$ 
 
 ## Functions
 ### Theory of Equations
@@ -81,7 +88,10 @@ $y=cf(bx+a)+d$
 ![](https://lh3.googleusercontent.com/proxy/g-Kuxdz-fwmkBpq2FnSzMKyHVRNMmgkjChCDZ7yXr51_kQJSf8PC6AbCEgNVu9mtzlaUb-Qz5iCPdKb2UNyrwO2VjZ1-6ZI8D9OL178lAspkHKU){:width="750"}
 
 #### Reciprocal Function
-![](https://lh3.googleusercontent.com/proxy/6y1G-PEhN5MYg0V-gY-RTp7elSLoCLSp3kDmvfWXa6_D56AQrXLUnbZWFX5USp3XstpOnVyvY8UBTYdvOdo1VFZdARz3_uqfu2YxTms2LBQD3TE1r1I){:width="500"}
+* $x$ intercepts become vertical asymtotes
+* vertical asymtotes become $x$ intercepts
+* $y$ intercepts become and horizontal asymtotes become $\frac{1}{y}$
+![](https://i.stack.imgur.com/rmdmd.png){:width="500"}
 
 #### Logarithmic & Exponential
 ![](https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A80525656f38f5a7a15ab4dba8c4a08637c010ea86ee45edc22fcf78c%2BIMAGE_TINY%2BIMAGE_TINY.1){:width="500"}
@@ -184,3 +194,17 @@ $|\textbf{a}\times \textbf{b}|$
 $|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
 * Volume of tetrahedron = 
 $\frac{1}{6}|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
+
+## Calculus
+### Logarithmic and Exponential Integrals 
+* $\int[f(x)]^n\ f^\prime(x)dx=\frac{[f(x)^{n+1}]}{n+1}+C,\ n\neq-1$
+
+* $\int\frac{f^\prime(x)}{f(x)}dx=\ln\lvert f(x)\rvert+C$
+
+* $\int e^{f(x)}f^\prime(x)dx=e^{f(x)}+C$
+
+### Inverse Trigonometric Integrals
+* $\int\frac{1}{\sqrt{a^2-(bx)^2}}dx=\frac{1}{b}\sin(\frac{bx}{a})+C$
+
+* $\int\frac{1}{\sqrt{a^2+(bx)^2}}dx=\frac{1}{ab}\tan(\frac{bx}{a})+C$
+
