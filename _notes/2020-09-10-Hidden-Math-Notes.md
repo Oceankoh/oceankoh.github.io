@@ -208,3 +208,69 @@ $\frac{1}{6}|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
 
 * $\int\frac{1}{\sqrt{a^2+(bx)^2}}dx=\frac{1}{ab}\tan(\frac{bx}{a})+C$
 
+TODO: implicit differentiation and concavity
+
+## Option: Statistics 
+### Expectation Algebra
+#### In Normal Distributions
+For $X\sim N(\mu,\sigma^2)$,
+* Multiplying $X\rightarrow nX$ (E.g. Number on dice roll $\times$ 2)
+	* $E(nX)=nE(X)=n\mu$  
+
+	* $Var(nX)=n^2Var(X)=n^2\sigma^2$  
+
+	* Therefore, $nX\sim N(n\mu,n^2\sigma^2)$  
+* Multiple independent observations of $X$ (E.g. Sum of 2 dice rolls)
+	* $E(X_1+X_2+...+X_n)=nE(X)=n\mu$  
+
+	* $Var(X_1+X_2+...+X_n)=nVar(X)=n\sigma^2$  
+
+	* Therefore, $X_1+X_2+...+X_n\sim N(n\mu,n\sigma^2)$  
+
+For $X\sim N(\mu_1,{\sigma_1}^2)$ and $Y\sim N(\mu_2,{\sigma_2}^2)$,
+* Generally, $aX\pm bY\sim N(a\mu_1 \pm b\mu_2, a^2{\sigma_1}^2+b^2{\sigma_2}^2)$
+
+### Normal Distribution $X\sim N(\mu,\sigma^2)$
+* $\mu = mean = mode = median$
+* Standardize normal form: $Z=\frac{X-\mu}{\sigma}$
+	* $z$ point on the standardized normal distribution
+	* $x$ point on the original normal distribution
+
+#### Approximate Binomial
+
+Requirements:   
+* Large n and p not too small or too large
+* $np>5$ and $nq>5$
+
+Approximation: $X\sim N(np,\ npq)$
+
+#### Approximate Poisson 
+
+Requirements:   
+* Large $\lambda$, $\lambda > 10$
+
+Approximation: $X\sim N(\lambda,\ \lambda)$
+
+### Geometric Distribution $X\sim Geo(p)$
+Models the number of trials required to achieve first success or number of consecutive failures.   
+Parameter $p$ is the probability of success. 
+
+Memorylessness property of the geometric distribution means that  
+$P((X>a+b)\ |\ (X>a))=P(X>b)$
+
+
+### Negative Binomial Distribution $X\sim NB(r,p)$
+Sum of $r$ independent Geometric Random Vairables.
+
+### Distribution of Sample Mean
+
+Sample mean $\bar X = \frac{X_1+X_2+...+X_n}{n}$
+  
+Expectation of $\bar X = \frac{E(X_1)+E(X_2)+...+E(X_n)}{n} = \mu$  
+
+Variance of $\bar X = \frac{Var(X_1)+Var(X_2)+...+Var(X_n)}{n^2} = \frac{n\sigma^2}{n^2}=\frac{\sigma^2}{n}$
+
+Therefore, $\bar X \sim N(\mu,\frac{\sigma^2}{n})$
+
+### Confidence Intervals 
+### GDC Skillage
