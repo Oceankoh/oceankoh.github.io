@@ -273,4 +273,50 @@ Variance of $\bar X = \frac{Var(X_1)+Var(X_2)+...+Var(X_n)}{n^2} = \frac{n\sigma
 Therefore, $\bar X \sim N(\mu,\frac{\sigma^2}{n})$
 
 ### Confidence Intervals 
+
+Center of confidence Interval: $\bar x$
+
+If $\sigma^2$ is known, use Z-interval 
+* $Z_\alpha = invNorm(\frac{1+confidence}{2},\ 0,\ 1)$
+* Confidence Interval for $\mu$: $(\bar x - Z_\alpha \times \frac{\sigma}{\sqrt n},\ \bar x + Z_\alpha \times \frac{\sigma}{\sqrt n})$
+* Width of confidence interval: $2\times Z_\alpha \times \frac{\sigma}{\sqrt{n}}$  
+* Sampling error for $\mu$: $\pm Z_\alpha \times \frac{\sigma}{\sqrt{n}}$
+ 
+If $\sigma^2$ not known, use T-interval and unbaised estimate of $\sigma^2$  
+
+$s^2_{n-1} = \frac{\Sigma(X_i-\bar X)^2}{n-1} = \frac{\Sigma (X_i)^2-n\bar X^2}{n-1}=\frac{\Sigma(X_i)^2-(\frac{\Sigma X_i}{n})^2}{n-1}=\frac{n}{n-1}\times Sample Variance$ 
+
+* $t_\alpha = invT(\frac{1+confidence}{2},\ n-1)$
+* Confidence Interval for $\mu$: $(\bar x - t_\alpha \times \frac{\sigma}{\sqrt n},\ \bar x + t_\alpha \times \frac{\sigma}{\sqrt n})$
+* Width of confidence interval: $2\times t_\alpha \times \frac{\sigma}{\sqrt{n}}$  
+* Sampling error for $\mu$: $\pm t_\alpha \times \frac{\sigma}{\sqrt{n}}$
+
+### Hypothesis Testing
+
+Null Hypothesis, $H_0$, is a statement assumed to be true (claim), until proven otherwise.  
+Alternative Hypothesis, $H_1$, is a statement that there is a difference.
+
+Significance level, $\alpha$, represents the probability of rejecting the null hypothesis when it is true.  
+
+P-value is the probability of getting a value of the test statistic that is at least as extreme as the one representing the sample data, assuming that $H_0$ is true. If probability of getting such an extreme value is high, means that there is not enough evidence to statisically (not by chance) show %H_1% is true.
+
+![](https://i.ytimg.com/vi/DlwOTOydeyk/maxresdefault.jpg){:width="750"}
+
+If $\sigma^2$ is known, use z-test
+* $n$ is small, but data assumed to be normally distributed/%n% is large and approximately normal by CLT
+* Test statistic: =$\frac{\bar X -\mu}{\sigma/\sqrt(n)}\sim N(0,1)$ 
+
+If $\sigma^2$ is unknown, use t-test
+* $n$ is small, assume to be normally distributed/%n% is large and approximately normal by CLT
+* Test statistic: $\frac{\bar X -\mu}{s_{n-1}/\sqrt(n)}\sim t(n-1)$
+
+
+Freemark statements:  
+* $\sigma^2$ is known/unknown, therefore use z-test/t-test
+* $H_0: \mu =\ ,\ H_1:\mu=$
+* Under $H_0$, test statistic:
+* Since p-value $\leq/> \alpha$, reject/do not reject $H_0$  
+* _Interpret and contextualise the results to the question_
+
+
 ### GDC Skillage
