@@ -365,3 +365,7 @@ Coefficient of regression $x$ on $y$: $d=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\
 
 ## GDC Skillage
  
+|Function|Command Syntax|Example Usage|Output|
+|:---|:---|:---|:---|
+|Generate Sequence|`seq(formula, variable, lower bound, upper bound)`|seq($n^2$, n, 1, 5)|{1,4,9,16,25}|
+
