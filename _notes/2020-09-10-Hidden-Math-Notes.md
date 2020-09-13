@@ -367,5 +367,28 @@ Coefficient of regression $x$ on $y$: $d=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\
  
 |Function|Command Syntax|Example Usage|Output|
 |:---|:---|:---|:---|
-|Generate Sequence|`seq(formula, variable, lower bound, upper bound)`|seq($n^2$, n, 1, 5)|{1,4,9,16,25}|
-
+|Generate Sequence|`seq(formula, variable, lower bound, upper bound)`|seq($n^2$, $n$, 1, 5)|{1,4,9,16,25}|
+|Generate Sequence in Table|`menu`+`3`+`1: Generate Sequence`| - | - |
+|Jump to bottom of spreadsheet|`Ctrl`+`1`|-|-|
+|Jump to top of spreadsheet|`Ctrl`+`7`|-|-|
+|Page down|`Ctrl`+`3`|-|-|
+|Page up|`Ctrl`+`9`|-|-|
+|Find complex roots|`cPolyRoots(polynomial, variable)`|`cPolyRoots(z^3-(2i+1),z)`|{-1.01+0.82i, -1.29...}|
+|Split table in graph page|`Ctrl`+`T`|-|-|
+|Find all intersections|`menu`+`8`+`1`+`3`|-|-|
+|Find Magnitude of Vector|`norm(vector)`|norm($\begin{pmatrix}5\\\5\\\5\end{pmatrix}$)|8.66|
+|Find point on Normal Distribution with area|`menu`+`6`+`5`+`3: Inverse Normal`|-|-|
+|Find point on T Distribution with area|`menu`+`6`+`5`+`6: Inverse t`|-|-|
+|Find z-interval|`menu`+`6`+`6`+`1: z Interval`+`Data`/`Stats`|-|-|
+|Find t-interval|`menu`+`6`+`6`+`1: z Interval`+`Data`/`Stats`|-|-|
+|Hypothesis testing with z-test|`menu`+`6`+`7`+`1: z Test`|-|-|
+|Hypothesis testing with t-test|`menu`+`6`+`7`+`2: t Test`|-|-|
+|Hypothesis testing of $\rho$|`menu`+`6`+`7`+`A: Linear Reg t Test`|-|-|
+|Find regression equation|`menu`+`6`+`7`+`A: Linear Reg t Test` or <br>`menu`+`4`+`6`+`2` in Data and Statistics page|-|-|
+|Select All|`Ctrl`+`A`|-|-|
+|Copy|`Ctrl`+`C`|-|-|
+|Paste|`Ctrl`+`V`|-|-|
+|Cut|`Ctrl`+`X`|-|-|
+|Undo|`Ctrl`+`Z`|-|-|
+|Redo|`Ctrl`+`Y`|-|-|
+|Enter new graph on graph page|`tab`|-|-|
