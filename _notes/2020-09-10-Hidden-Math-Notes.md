@@ -311,12 +311,14 @@ If $\sigma^2$ is unknown, use t-test
 * Test statistic: $\frac{\bar X -\mu}{s_{n-1}/\sqrt(n)}\sim t(n-1)$
 
 
-Freemark statements:  
+__Freemark statements:__
 * $\sigma^2$ is known/unknown, therefore use z-test/t-test
 * $H_0: \mu =\ ,\ H_1:\mu=$
 * Under $H_0$, test statistic:
 * Since p-value $\leq/> \alpha$, reject/do not reject $H_0$  
 * _Interpret and contextualise the results to the question_
+
+#### Errors in Hypothesis Testing
 
 
 ### GDC Skillage
