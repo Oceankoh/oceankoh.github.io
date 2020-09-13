@@ -373,7 +373,7 @@ Coefficient of regression $x$ on $y$: $d=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\
 |Jump to top of spreadsheet|`Ctrl`+`7`|-|-|
 |Page down|`Ctrl`+`3`|-|-|
 |Page up|`Ctrl`+`9`|-|-|
-|Find complex roots|`cPolyRoots(polynomial, variable)`|`cPolyRoots(z^3-(2i+1),z)`|{-1.01+0.82i, -1.29...}|
+|Find complex roots|`cPolyRoots(polynomial, variable)`|cPolyRoots($z^3-(2i+1)$,$z$)|{-1.01+0.82i, -1.29...}|
 |Split table in graph page|`Ctrl`+`T`|-|-|
 |Find all intersections|`menu`+`8`+`1`+`3`|-|-|
 |Find Magnitude of Vector|`norm(vector)`|norm($\begin{pmatrix}5\\\5\\\5\end{pmatrix}$)|8.66|
