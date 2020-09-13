@@ -320,5 +320,29 @@ __Freemark statements:__
 
 #### Errors in Hypothesis Testing
 
+| Possible Results | $H_0$ not rejected | $H_0$ rejected  |
+| :--------------: | :----------------: | :-------------: |
+| $H_0$ is true | Correct Decision (Probability: $1-\alpha$) | Type 1 Error (Probability: $\alpha$) |
+| $H_0$ is not true | Type 2 error (Probability $1-\beta$) | Correct Decision (Probability $1-\beta$) |
 
-### GDC Skillage
+
+__Freemark statements__
+* $P(Type\ 1\ error) = P(rejecting\ H_0\ when\ H_0\ is\ true)=\alpha$
+* $P(Type\ 2\ error) = P(not\ rejecting\ H_0\ when\ H_0\ is\ not\ true)$
+
+### Bivariate Distributions
+
+$E(X) = \Sigma\ x (P(X=x, Y=y_1)+P(X=x, Y=y_2)+...+P(X=x, Y=y_n))$   
+$E(XY) = \Sigma\ xy P(X=x,Y=y) \neq E(X)(Y)$
+* $X$ and $Y$ are not independent variables  
+
+$Cov(X,Y)=E(XY)-E(X)(Y)$
+* Covariance postive = positive relationship
+* Covariance negative = negative relationship
+* Covariance zero = $X,Y$ are independent
+	
+### Correlation and Regression
+
+Population Product-Moment Correlation Coefficient $= \rho = \frac{Cov(X,Y)}{\sigma_x\sigma_y}$
+
+## GDC Skillage
