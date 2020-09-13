@@ -284,7 +284,7 @@ If $\sigma^2$ is known, use Z-interval
  
 If $\sigma^2$ not known, use T-interval and unbaised estimate of $\sigma^2$  
 
-$s^2_{n-1} = \frac{\Sigma(X_i-\bar X)^2}{n-1} = \frac{\Sigma (X_i)^2-n\bar X^2}{n-1}=\frac{\Sigma(X_i)^2-(\frac{\Sigma X_i}{n})^2}{n-1}=\frac{n}{n-1}\times Sample Variance$ 
+$s^2_{n-1} = \frac{\sum(X_i-\bar X)^2}{n-1} = \frac{\sum (X_i)^2-n\bar X^2}{n-1}=\frac{\sum(X_i)^2-(\frac{\sum X_i}{n})^2}{n-1}=\frac{n}{n-1}\times Sample Variance$ 
 
 * $t_\alpha = invT(\frac{1+confidence}{2},\ n-1)$
 * Confidence Interval for $\mu$: $(\bar x - t_\alpha \times \frac{\sigma}{\sqrt n},\ \bar x + t_\alpha \times \frac{\sigma}{\sqrt n})$
@@ -332,8 +332,8 @@ __Freemark statements__
 
 ### Bivariate Distributions
 
-$E(X) = \Sigma\ x (P(X=x, Y=y_1)+P(X=x, Y=y_2)+...+P(X=x, Y=y_n))$   
-$E(XY) = \Sigma\ xy P(X=x,Y=y) \neq E(X)(Y)$
+$E(X) = \sum\ x (P(X=x, Y=y_1)+P(X=x, Y=y_2)+...+P(X=x, Y=y_n))$   
+$E(XY) = \sum\ xy P(X=x,Y=y) \neq E(X)(Y)$
 * $X$ and $Y$ are not independent variables  
 
 $Cov(X,Y)=E(XY)-E(X)(Y)$
@@ -341,8 +341,27 @@ $Cov(X,Y)=E(XY)-E(X)(Y)$
 * Covariance negative = negative relationship
 * Covariance zero = $X,Y$ are independent
 	
-### Correlation and Regression
+#### Correlation
 
-Population Product-Moment Correlation Coefficient $= \rho = \frac{Cov(X,Y)}{\sigma_x\sigma_y}$
+Population Product-Moment Correlation Coefficient $= \rho = \frac{Cov(X,Y)}{\sigma_x\sigma_y}$  
+Sample Product-Moment Correlation Coefficient $r=\frac{s_{xy}}{s_x s_y}$
+
+Correlation positive = 
+
+### Hypothesis testing for bivariate distributions
+
+$H_0: \rho = 0$  
+$H_1: \rho < 0,\ or\ \rho >0\ or\ \rho \neq 0$  
+
+Under $H_0$, test statistic is $R\sqrt{\frac{n-2}{1-R^2}}\sim t(n-2)$
+
+### Regression
+
+Regression line = line of closest fit/best fit line
+
+Coefficient of regression $y$ on $x$: $b=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\bar x\bar y}{\sum\limits_{i=1}^{n}(x_i^2)-n\bar x^2}$
+
+Coefficient of regression $x$ on $y$: $d=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\bar x\bar y}{\sum\limits_{i=1}^{n}(y_i^2)-n\bar y^2}$
 
 ## GDC Skillage
+ 
