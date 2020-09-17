@@ -260,7 +260,12 @@ $P((X>a+b)\ |\ (X>a))=P(X>b)$
 
 
 ### Negative Binomial Distribution $X\sim NB(r,p)$
-Sum of $r$ independent Geometric Random Vairables.
+Sum of $r$ independent Geometric Random Vairables. Used to find number of trials required for $r$ successes. 
+
+$E(X)=\frac{r}{p}$  
+$Var(X)=\frac{rq}{p^2}$  
+PDF $=(x-1)C(r-1)\times p^r (1-p)^{x-r}\ =$ `binompdf(x-1,p,r-1)*p`  
+CDF $=\sum\limits_{k=r}^{x}(x-1)C(k-1)\times p^r (1-p)^{k-r}\ =\ \sum\limits_{k=r}^{x}$ `binompdf(k-1,p,x-1)*p`
 
 ### Distribution of Sample Mean
 
