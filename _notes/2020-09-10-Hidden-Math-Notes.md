@@ -303,7 +303,7 @@ Alternative Hypothesis, $H_1$, is a statement that there is a difference.
 
 Significance level, $\alpha$, represents the probability of rejecting the null hypothesis when it is true.  
 
-P-value is the probability of getting a value of the test statistic that is at least as extreme as the one representing the sample data, assuming that $H_0$ is true. If probability of getting such an extreme value is high, means that there is not enough evidence to statisically (not by chance) show %H_1% is true.
+P-value is the probability of getting a value of the test statistic that is at least as extreme as the one representing the sample data, assuming that $H_0$ is true. If probability of getting such an extreme value is high, means that there is not enough evidence to statisically (not by chance) show $H_1$ is true.
 
 ![](https://i.ytimg.com/vi/DlwOTOydeyk/maxresdefault.jpg){:width="750"}
 
