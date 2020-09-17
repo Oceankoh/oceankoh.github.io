@@ -308,11 +308,11 @@ P-value is the probability of getting a value of the test statistic that is at l
 ![](https://i.ytimg.com/vi/DlwOTOydeyk/maxresdefault.jpg){:width="750"}
 
 If $\sigma^2$ is known, use z-test
-* $n$ is small, but data assumed to be normally distributed/%n% is large and approximately normal by CLT
+* $n$ is small, but data assumed to be normally distributed/$n$ is large and approximately normal by CLT
 * Test statistic: =$\frac{\bar X -\mu}{\sigma/\sqrt(n)}\sim N(0,1)$ 
 
 If $\sigma^2$ is unknown, use t-test
-* $n$ is small, assume to be normally distributed/%n% is large and approximately normal by CLT
+* $n$ is small, assume to be normally distributed/$n$ is large and approximately normal by CLT
 * Test statistic: $\frac{\bar X -\mu}{s_{n-1}/\sqrt(n)}\sim t(n-1)$
 
 
