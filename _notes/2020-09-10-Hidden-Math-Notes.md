@@ -305,6 +305,8 @@ Significance level, $\alpha$, represents the probability of rejecting the null h
 
 P-value is the probability of getting a value of the test statistic that is at least as extreme as the one representing the sample data, assuming that $H_0$ is true. If probability of getting such an extreme value is high, means that there is not enough evidence to statisically (not by chance) show $H_1$ is true.
 
+When p-value < significance level reject $H_0$. If p-value > significance level, do not reject $H_0$.
+
 ![](https://i.ytimg.com/vi/DlwOTOydeyk/maxresdefault.jpg){:width="750"}
 
 If $\sigma^2$ is known, use z-test
@@ -320,6 +322,7 @@ __Freemark statements:__
 * $\sigma^2$ is known/unknown, therefore use z-test/t-test
 * $H_0: \mu =\ ,\ H_1:\mu=$
 * Under $H_0$, test statistic:
+* p-value= _value_, z/t critical = _value_ 
 * Since p-value $\leq/> \alpha$, reject/do not reject $H_0$  
 * _Interpret and contextualise the results to the question_
 
@@ -351,7 +354,7 @@ $Cov(X,Y)=E(XY)-E(X)(Y)$
 Population Product-Moment Correlation Coefficient $= \rho = \frac{Cov(X,Y)}{\sigma_x\sigma_y}$  
 Sample Product-Moment Correlation Coefficient $r=\frac{s_{xy}}{s_x s_y}$
 
-Correlation positive = 
+Correlation positive = positive relationship
 
 ### Hypothesis testing for bivariate distributions
 
