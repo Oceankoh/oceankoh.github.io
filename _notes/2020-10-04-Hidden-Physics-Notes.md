@@ -73,13 +73,27 @@ title: Quik Fezixs Noats
 |Coherent Sources|Source of waves with constant phase difference and same frequency|
 |Standing Wave|Wave formed by the superposition of two waves that are of same type, amplitude, frequency and travelling in opposite directions|
 
+### Shit I always forget
 
-## Topic 5:
+- Light travels slower in denser medium
+- Light bends towards the normal in a denser medium
+
+## Topic 5: Electricity and Magnetism
 ### Definitions
 
 |Term|Definition|
 |:---|:---|
-|||
+|Coulomb's Law|Electrostatic force between 2 point charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them|
+|Electric Field Strength|Force per unit charge acting on a small positive test charge|
+|Uniform Electric Field|Elctric field that has a constant magnitude and direction|
+|Electrical Potential Difference|Work done per unit charge to move a small positive test charge between 2 points|
+|Electronvolt|Work done when a charge is equal to one electron charge is taken across a potential difference of one electric charge|
+|Drift Velocity|Spped of electrons due to the current|
+|Ohm's Law|The current through a conductor is directly proportional to the potential difference across it provided the temperature and other physical conditions remain constant|
+|Kirchhoff's First Law|At a junctoin, the algebraic sum of currents is zero|
+|Kirchhoff's Second Law|Round any closed loop, the algebraic usm of the emf of cells is equal to the algebraic sum of the potential difference across all individual components|
+|Electromotive force|Work done per unit charge in moving a quantity of charge completely around the circuit|
+
 
 ## Topic 6: Circular Motion
 ### Definitions
