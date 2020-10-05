@@ -53,7 +53,7 @@ title: Quik Fezixs Noats
 |Charles' Law|If the mass and presure of a gas are constant, the volume is directly proportional to its aboslute temperature|
 |Avogadro's constant|Number of atoms in 12 grams of carbon-12|
 |Properties of an ideal gas|An ideal gas consists of a large number of identical molecules. The volume occupied by the molecules themselves is negligible compared to the volume occupied by the gas. The molecules obey Newton's laws of motion, and they move in random motion|
-|Ideal Gas Law|pV=nRT|
+|Ideal Gas Law|`pV=nRT`|
 
 
 ## Topic 4: Waves
