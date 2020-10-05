@@ -56,6 +56,7 @@ title: Quik Fezixs Noats
 |Properties of an ideal gas|An ideal gas consists of a large number of identical molecules. The volume occupied by the molecules themselves is negligible compared to the volume occupied by the gas. The molecules obey Newton's laws of motion, and they move in random motion|
 |Ideal Gas|A gas with no intermolecular force that obeys the ideal gas law, pV = nRT at all temperatures, pressures and volumes|
 |Temperature|A measure of the average kinetic energy of the molecules of a substance|
+|Kinetic Theory of Gases|The relation of macroscopic behaviorof an ideal gas to the behavior of its molecules|
 
 
 ## Topic 4: Waves
@@ -63,7 +64,15 @@ title: Quik Fezixs Noats
 
 |Term|Definition|
 |:---|:---|
-|||
+|Amplitude|Maximum magnitude of displacement from the equilibrium position|
+|Simple Harmonic Motion|Oscillatory motion in which acceleration is directly proportional to displacement from point of equilibrium and always directed towards that point|
+|Intensity|Rate of energy flow per unit cross-sectional area perpendicular to the direction of wave-propogation|
+|Superposition|When two similar waves meet the resultant displacement is the vector sum of individual displacements|
+|Modulation|Occurs when the intensitiesof the maxima of the double slit interference pattern is enveloped by the intensity of the single slit interference pattern (basically interference pattern of both single and double slit at the same time)|
+|Critical Angle|Angle of incidence in an optically denser medium for which the angle of refraction in the less dense medium is $90^{\circ}$|
+|Coherent Sources|Source of waves with constant phase difference and same frequency|
+|Standing Wave|Wave formed by the superposition of two waves that are of same type, amplitude, frequency and travelling in opposite directions|
+
 
 ## Topic 5:
 ### Definitions
