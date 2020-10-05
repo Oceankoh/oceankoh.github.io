@@ -100,7 +100,8 @@ title: Quik Fezixs Noats
 
 |Term|Definition|
 |:---|:---|
-|||
+|Newton's Universal Law of Gravitation|The attractive force between two point masses is directly proportional to the product of the masses and inversely proportional to the square oftheir separation|
+|Uniform Circular Motion|Motion in a circle of constant radius at constant speed|
 
 ## Topic 7: Nuclear Physics
 ### Definitions
@@ -118,14 +119,25 @@ title: Quik Fezixs Noats
 
 |Term|Definition|
 |:---|:---|
-|||
+|Primary Source of Energy|Source of energy that has not been transformed or converted before use by the consumers|
+|Secondary Source of Energy|Source of energy that results from the transformatoin of a primary source|
+|Degradation of Energy|Energy lost/transferred to the surroundings and can no longer be used to do work|
+|Energy Density|Number of joules of energy liberated per unit mass of fuel consumption|
+|Critical Mass|Minimum mass needed to sustain a chain fission reaction|
+|Enrichment|Refers to increasing the percentage composition of U-235 in fuel rods to make them more fissile|
+|Wien's Displacement Law|The black-body radiation curve for different temperatures will peak at different wavelengths that are inversely proportional to the temperature|
+|Stefan-Boltzmann Law|Power emmitted by a blackbody is directly proportional to its surface area and absolute temperature raised to the fourth power|
+
 
 ## Topic 9: Simple Harmonic Motion
 ### Definitions
 
 |Term|Definition|
 |:---|:---|
-|||
+|Resolution|The minimum distance between distinguishable objects in an image|
+|Rayleigh Criterion|2 sources are just resolvable when the first minimum of the diffraction pattern of one of the sourcse falls on the central maximum of the diffraction pattern if the other source|
+|Resolvance|Resolvance for a grating is the ratio of the wavelength of light to the smallest difference in wavelength that can be resolved by the grating|
+|Doppler Effect|Change in measured frequency due to relative motion of source and observer|
 
 ## Topic 10: Fields 
 ### Definitions
