@@ -52,8 +52,10 @@ title: Quik Fezixs Noats
 |Boyle's Law|For a gas at a constant temperature the volume and pressure are inversely proportional|
 |Charles' Law|If the mass and presure of a gas are constant, the volume is directly proportional to its aboslute temperature|
 |Avogadro's constant|Number of atoms in 12 grams of carbon-12|
+|Internal Energy|Sum of the potential energy and random kinetic energy of all the particles in a substance|
 |Properties of an ideal gas|An ideal gas consists of a large number of identical molecules. The volume occupied by the molecules themselves is negligible compared to the volume occupied by the gas. The molecules obey Newton's laws of motion, and they move in random motion|
-|Ideal Gas Law|`pV=nRT`|
+|Ideal Gas|A gas with no intermolecular force that obeys the ideal gas law, pV = nRT at all temperatures, pressures and volumes|
+|Temperature|A measure of the average kinetic energy of the molecules of a substance|
 
 
 ## Topic 4: Waves
