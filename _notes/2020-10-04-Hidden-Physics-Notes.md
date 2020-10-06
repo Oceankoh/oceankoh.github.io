@@ -159,7 +159,9 @@ title: Quik Fezixs Noats
 
 |Term|Definition|
 |:---|:---|
-|||
+|Photoelectric Effect|Emission of electrons from a metal's surface when electromagnetic radiation of sufficiently high frequency is shone on it|
+|Work Function|Minimum amount of energy required for an electron to escape from the surface of a metal|
+|DeBroglie Wavelength|Wavelength manifested in all the objects in quantum mechanics|
 
 ## Option C: Light
 ### Lenses and Mirrors
