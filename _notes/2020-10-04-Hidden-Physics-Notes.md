@@ -73,6 +73,8 @@ title: Quik Fezixs Noats
 |Coherent Sources|Source of waves with constant phase difference and same frequency|
 |Standing Wave|Wave formed by the superposition of two waves that are of same type, amplitude, frequency and travelling in opposite directions|
 
+### Single slit diffraction
+
 ### Shit I always forget
 
 - Light travels slower in denser medium
@@ -103,16 +105,24 @@ title: Quik Fezixs Noats
 |Newton's Universal Law of Gravitation|The attractive force between two point masses is directly proportional to the product of the masses and inversely proportional to the square oftheir separation|
 |Uniform Circular Motion|Motion in a circle of constant radius at constant speed|
 
+Difference between vertical and horizontal circular motion
+
 ## Topic 7: Nuclear Physics
 ### Definitions
 
 |Term|Definition|
 |:---|:---|
-|||
+|Hardons||
+|Leptons||
+|Baryons||
+|Mesons||
 
 ### Parts of a Nuclear Reactor
 
+### Conservation laws
+
 ### Feynman Diagrams
+significance of space time
 
 ## Topic 8: Solar bullcrap
 ### Definitions
@@ -127,6 +137,7 @@ title: Quik Fezixs Noats
 |Enrichment|Refers to increasing the percentage composition of U-235 in fuel rods to make them more fissile|
 |Wien's Displacement Law|The black-body radiation curve for different temperatures will peak at different wavelengths that are inversely proportional to the temperature|
 |Stefan-Boltzmann Law|Power emmitted by a blackbody is directly proportional to its surface area and absolute temperature raised to the fourth power|
+|Solar constant|Amount of solar radiation per unit area, measured on the outer surface of Earth's atmosphere when the earth is at the mean distance away from the sun|
 
 
 ## Topic 9: Simple Harmonic Motion
@@ -139,6 +150,17 @@ title: Quik Fezixs Noats
 |Resolvance|Resolvance for a grating is the ratio of the wavelength of light to the smallest difference in wavelength that can be resolved by the grating|
 |Doppler Effect|Change in measured frequency due to relative motion of source and observer|
 
+### Phase Difference
+
+### Nodes and Anti-nodes
+
+### Diffraction Gratings
+
+### Thin-film interference 
+
+### Resolvance stuff
+
+
 ## Topic 10: Fields 
 ### Definitions
 
@@ -146,13 +168,19 @@ title: Quik Fezixs Noats
 |:---|:---|
 |||
 
-## Topic 11: Capacitance
+### Difference between gravitational and electrical fields
+
+## Topic 11: Electromagnetic induction
 
 ### Definitions
 
 |Term|Definition|
 |:---|:---|
 |||
+
+### Rules
+
+### Wires and induction stuff
 
 ## Topic 12: Quantum Physics
 ### Definitions
@@ -162,6 +190,12 @@ title: Quik Fezixs Noats
 |Photoelectric Effect|Emission of electrons from a metal's surface when electromagnetic radiation of sufficiently high frequency is shone on it|
 |Work Function|Minimum amount of energy required for an electron to escape from the surface of a metal|
 |DeBroglie Wavelength|Wavelength manifested in all the objects in quantum mechanics|
+
+### Quantum vs Relativistic behaviors
+
+### Photoelectric effect and stopping potential experiment
+
+### Uncertainty Bullshit
 
 ## Option C: Light
 ### Lenses and Mirrors
