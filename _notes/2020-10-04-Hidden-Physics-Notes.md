@@ -90,12 +90,13 @@ title: Quik Fezixs Noats
 |Uniform Electric Field|Elctric field that has a constant magnitude and direction|
 |Electrical Potential Difference|Work done per unit charge to move a small positive test charge between 2 points|
 |Electronvolt|Work done when a charge is equal to one electron charge is taken across a potential difference of one electric charge|
+|Electric Current|Rate of flow of electric charge|
 |Drift Velocity|Spped of electrons due to the current|
 |Ohm's Law|The current through a conductor is directly proportional to the potential difference across it provided the temperature and other physical conditions remain constant|
 |Kirchhoff's First Law|At a junctoin, the algebraic sum of currents is zero|
 |Kirchhoff's Second Law|Round any closed loop, the algebraic usm of the emf of cells is equal to the algebraic sum of the potential difference across all individual components|
 |Electromotive force|Work done per unit charge in moving a quantity of charge completely around the circuit|
-
+|Motor Effect|Force induced by the magnetic interaction between a current-carrying wire in a magnetic field|
 
 ## Topic 6: Circular Motion
 ### Definitions
@@ -104,6 +105,7 @@ title: Quik Fezixs Noats
 |:---|:---|
 |Newton's Universal Law of Gravitation|The attractive force between two point masses is directly proportional to the product of the masses and inversely proportional to the square oftheir separation|
 |Uniform Circular Motion|Motion in a circle of constant radius at constant speed|
+|Gravitational Field Strength|Force per unit mass exerted on a test mass placed at that point|
 
 Difference between vertical and horizontal circular motion
 
@@ -112,10 +114,18 @@ Difference between vertical and horizontal circular motion
 
 |Term|Definition|
 |:---|:---|
-|Hardons||
-|Leptons||
-|Baryons||
-|Mesons||
+|Emission/Absorption Spectra|Set of wavelengths of light emmitted/absorbed by atoms of an element|
+|Half-life|Time taken for half the unstable nuclei in a given sample to decay|
+|Unified Atomic Mass Unit|Equal to 1/12 the mass of a carbon-12 atom|
+|Mass Defect|Difference between total mass of the constituents of a nucleus and the mass of the nucleus|
+|Elementary particles|Subatomic particle with no structure|
+|Hardons|Comprise of quarks and include baryons and mesons|
+|Leptons|Lighter and more loosely bound particles like electrons|
+|Quarks|Heavier, tightly bound particles that make up particles like protons and neutrons|
+|Baryons|Comprises of 3 quarks|
+|Mesons|Comprises of 1 quark and 1 antiquark|
+|Exchange particles|Virtual particles mediating force between interacting particles|
+|Antiparticles|Particles with the same mass but different quantum numbers from their corresponding particles|
 
 ### Conservation laws
 
@@ -143,6 +153,7 @@ significance of space time
 |Primary Source of Energy|Source of energy that has not been transformed or converted before use by the consumers|
 |Secondary Source of Energy|Source of energy that results from the transformatoin of a primary source|
 |Degradation of Energy|Energy lost/transferred to the surroundings and can no longer be used to do work|
+|Enrichment|Increasing the percentage composition of Uranium-235 in fuel rods to make them more fissile|
 |Energy Density|Number of joules of energy liberated per unit mass of fuel consumption|
 |Critical Mass|Minimum mass needed to sustain a chain fission reaction|
 |Enrichment|Refers to increasing the percentage composition of U-235 in fuel rods to make them more fissile|
@@ -195,7 +206,14 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 
 |Term|Definition|
 |:---|:---|
-|||
+|Equipotential Surfaces|Regions where the potential is the same|
+|Gravitational Potential Energy|Work done by an external force in bringing a small test mass from infinity to that point|
+|Gravitational Potential| Work done  per unit mass by an external force in bringing a small test mass from infinity to that point|
+|Electric Field Strength|Force per unit charge acting on a positive test charge|
+|Electric Potential Energy|Wrok done in moving a small positive test charge from infinity to that point|
+|Electric Potential|Work done per unit charge in moving a small positive test charge from infinity to that point|
+
+
 
 ### Difference between gravitational and electrical fields
 
@@ -209,10 +227,17 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 |Faraday's Law of Induction|Magnitude of the induced emf is proportional to the rate of change of the flux linkage|
 |Lenz's Law|Induced EMF acts in the direction such that the current induced opposes the change which caused it|
 |Rectification|Conversion of alternating current to direct current using diodes|
+|Capacitance|Charge stored by a device for a potential difference of 1 volt across the device|
 |Time Constant|Time required to charge a capcitor, through a resister, from an initial charge voltage of 0 to approximately 63.2%|
 
 
 ### Rules
+
+* Fleming's left-hand rule
+* Fleming's right-hand rule
+* Maxwell's right-hand grip rule
+* Lenz's law
+* Faraday's law
 
 ### Wires and induction stuff
 
@@ -223,14 +248,15 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 |:---|:---|
 |Photoelectric Effect|Emission of electrons from a metal's surface when electromagnetic radiation of sufficiently high frequency is shone on it|
 |Work Function|Minimum amount of energy required for an electron to escape from the surface of a metal|
-|DeBroglie Wavelength|Wavelength manifested in all the objects in quantum mechanics|
+|DeBroglie Hypothesis|There is a wavelength manifested in all the objects given by the equation $\lambda=\frac{h}{p}$ where $h$ is Plank's Constant and $p$ is momentum|
 |Pair production|When a high energy photon collides with a nucleus, it makes a pair o electron and positron|
 |Pair annihilation|Matter collides with its corresponding antimatter, they annihiliate one another with the conservation of energy, momentum, and charge|
+|Heisenberg Uncertainty Principle|Position and momentum cannot be simultaneously measured with precision|
+|Decay Constant|Probability of dcay of a single nucleus per unit time|
 |Wave function|The square of the amplitude of the wave function represents the probability of finding the particle at that position at that time.|
 
 
 ### Quantum vs Relativistic behaviors
-
 
 ### Photoelectric effect and stopping potential experiment
 
