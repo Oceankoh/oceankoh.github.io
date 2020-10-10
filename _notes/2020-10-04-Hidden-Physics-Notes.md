@@ -117,14 +117,25 @@ Difference between vertical and horizontal circular motion
 |Baryons||
 |Mesons||
 
-### Parts of a Nuclear Reactor
-
 ### Conservation laws
+
+#### Shit that are always conserved
+
+* Energy
+* Momentum (linear and angular)
+* Charge
+* Baryon Number
+* Lepton Number
+
+#### Shit not always conserved 
+
+* Strangeness (conserved in all electromagnetic and strong interactions but not always in weak interactions)
+* Charm (conserved in all electromagnetic and strong interactions but not always in weak interactions)
 
 ### Feynman Diagrams
 significance of space time
 
-## Topic 8: Solar bullcrap
+## Topic 8: Energy Production
 ### Definitions
 
 |Term|Definition|
@@ -140,6 +151,14 @@ significance of space time
 |Solar constant|Amount of solar radiation per unit area, measured on the outer surface of Earth's atmosphere when the earth is at the mean distance away from the sun|
 
 
+### Parts of a Nuclear Reactor
+
+|Part|Function|
+|:---|:---|
+|Moderator|Slow down neutrons and allow for further reactions to take place|
+|Control Rods|movable rods that readily absorb neutrons. They can be introduced or removed from the reaction chamber in order to control the chain reaction|
+|Heat Exchanger|Allows the nuclear reactions to occur in a place that is sealed off from the rest of the environment.|
+
 ## Topic 9: Simple Harmonic Motion
 ### Definitions
 
@@ -154,12 +173,22 @@ significance of space time
 
 ### Nodes and Anti-nodes
 
+### Double Slit interference
+
+$n\lambda=d\sin\theta$
+- n is the order
+- Central maxima is the 0th order
+- $\theta$ is the angle from the center and $d$ is the slit spacing
+
 ### Diffraction Gratings
 
 ### Thin-film interference 
 
 ### Resolvance stuff
 
+Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$  
+- Theta is the minimum angle that 2 objects can be resolved
+- Rayleigh Criterion
 
 ## Topic 10: Fields 
 ### Definitions
@@ -176,7 +205,12 @@ significance of space time
 
 |Term|Definition|
 |:---|:---|
-|||
+|Magnetic Flux (Linkage)|Measure of the component of themagnetic field passing though the surface and is proportional to the number of magnetic field lines which intersect the surface (through a coil)|
+|Faraday's Law of Induction|Magnitude of the induced emf is proportional to the rate of change of the flux linkage|
+|Lenz's Law|Induced EMF acts in the direction such that the current induced opposes the change which caused it|
+|Rectification|Conversion of alternating current to direct current using diodes|
+|Time Constant|Time required to charge a capcitor, through a resister, from an initial charge voltage of 0 to approximately 63.2%|
+
 
 ### Rules
 
@@ -190,8 +224,13 @@ significance of space time
 |Photoelectric Effect|Emission of electrons from a metal's surface when electromagnetic radiation of sufficiently high frequency is shone on it|
 |Work Function|Minimum amount of energy required for an electron to escape from the surface of a metal|
 |DeBroglie Wavelength|Wavelength manifested in all the objects in quantum mechanics|
+|Pair production|When a high energy photon collides with a nucleus, it makes a pair o electron and positron|
+|Pair annihilation|Matter collides with its corresponding antimatter, they annihiliate one another with the conservation of energy, momentum, and charge|
+|Wave function|The square of the amplitude of the wave function represents the probability of finding the particle at that position at that time.|
+
 
 ### Quantum vs Relativistic behaviors
+
 
 ### Photoelectric effect and stopping potential experiment
 
