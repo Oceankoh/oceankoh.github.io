@@ -222,9 +222,10 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 |Electric Potential Energy|Wrok done in moving a small positive test charge from infinity to that point|
 |Electric Potential|Work done per unit charge in moving a small positive test charge from infinity to that point|
 
-
-
 ### Difference between gravitational and electrical fields
+
+- Gavitational Fields are only attractive whereas Electric fields are attractive/repulsive
+
 
 ## Topic 11: Electromagnetic induction
 
@@ -269,7 +270,26 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 
 ### Photoelectric effect and stopping potential experiment
 
+Things to note:
+- Work function is the minimum energy required to remove an electron from a solid 
+- **Maximum** kinetic energy $E=hf-\phi$ is dependent on frequency of light
+- Not all electrons have the same kinetic energy as the bond energy may be different. Workfunction is the minimum and a constant for all electrons.
+- Number of electrons is proportional to intensity of the light.
+- Intensity does not affect kinetic energy. This supports the explanation that light behaves as particles since the energy of a single particle is transferred to the electron. 
+
+Predictions of classical model that do not hold:
+- Light as a electromagnetic wave interacts with the electron by exerting a force. Therefore, a threshold intensity is required to free an electron. However, evidence shows a threshold frequency instead.
+- If light behaves as a wave, resonance might help free the electron (light at the natural frequency of the electron would be more significant). However, evidence shows light of any frequency above the threshold frequency would free an electron.
+ 
 ### Uncertainty Bullshit
+
+Position and Momentum cannot be measured precisely at the same time.  
+Uncertainty in position is in metres since momentum is also 1-dimensional.    
+For most questions, 
+- Size of whatever the thing is discussing is most likely the uncertainty in position.
+- In momentum, mass is most likely known, so velocity is the one that is uncertain
+
+If uncertainty in position exceeds the space in which the particle is confined to, the transmission of the particle through the energy barrier is known as quantum tunneling
 
 ## Option C: Light
 ### Lenses and Mirrors
