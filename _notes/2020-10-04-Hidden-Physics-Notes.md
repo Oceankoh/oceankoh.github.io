@@ -182,7 +182,14 @@ significance of space time
 
 ### Phase Difference
 
+Particles moving in the same direction all the time are in phase.
+It is possible to vibrate in phase but with difference amplitudes.  
+So basically, in a single wave, all nodes in 1 half of a wave are in phase.
+
 ### Nodes and Anti-nodes
+
+**Nodes** are points along a medium in a standing wave that appear to be standing still. These points undergo no displacement.  
+**Antinodes** are points in the medium that undergo maximum displacement during each vibration cycle.  
 
 ### Double Slit interference
 
@@ -194,6 +201,8 @@ $n\lambda=d\sin\theta$
 ### Diffraction Gratings
 
 ### Thin-film interference 
+
+Light waves change phase by $\pi$ or $180^{\circ}$ when reflecting off a medium with higher refractive index (E.g. light from air to glass will change phase, but glass to air will not). 
 
 ### Resolvance stuff
 
