@@ -251,6 +251,8 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 
 ### Wires and induction stuff
 
+
+
 ## Topic 12: Quantum Physics
 ### Definitions
 
@@ -267,6 +269,8 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 
 
 ### Quantum vs Relativistic behaviors
+
+Quantum Equations and it's relativistic counterparts
 
 ### Photoelectric effect and stopping potential experiment
 
