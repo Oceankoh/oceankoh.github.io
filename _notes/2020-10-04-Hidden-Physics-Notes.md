@@ -75,6 +75,17 @@ title: Quik Fezixs Noats
 
 ### Single slit diffraction
 
+$b\sin\theta=m\lambda$
+- Similar equation to the double slit interference ($d\sin\theta=m\lambda$) equation to find maximas, but in single slit it finds the minimas
+- $\theta$ is the angle from the center to the minimum, this means that the central maximum width is $2\theta$
+- b is the slit width
+
+$\theta = \frac{\lambda}{b}$
+- Equation is derived from above, but used only for the central maximum, hence $m=1\ or\  -1$
+- The $\sin$ disappears because of the small angle. The sine of a small angle is approximately the angle.
+- b is the slit width
+
+
 ### Shit I always forget
 
 - Light travels slower in denser medium
@@ -196,9 +207,19 @@ So basically, in a single wave, all nodes in 1 half of a wave are in phase.
 $n\lambda=d\sin\theta$
 - n is the order
 - Central maxima is the 0th order
-- $\theta$ is the angle from the center and $d$ is the slit spacing
+- $\theta$ is the angle from the center to the m-th order of constructive interference
+- $d$ is the slit spacing
+
 
 ### Diffraction Gratings
+
+Nothing much to this, just an application of the above formulas but this time over many slits. 
+
+Visually, using a diffraction grating makes the maxima narrower and more intense because
+1. More slits means more light passes through
+2. More waves interfere with each other, the intensity is proportional to the square of the amplitude
+3. Narrower because of more destructive interference
+
 
 ### Thin-film interference 
 
