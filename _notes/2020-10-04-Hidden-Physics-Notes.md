@@ -73,6 +73,10 @@ title: Quik Fezixs Noats
 |Coherent Sources|Source of waves with constant phase difference and same frequency|
 |Standing Wave|Wave formed by the superposition of two waves that are of same type, amplitude, frequency and travelling in opposite directions|
 
+### Electromagnetic Spectrum
+
+![Em Spectrum](http://butane.chem.uiuc.edu/pshapley/GenChem2/A3/electromagnetic-spectrum.jpg){:width="600"}
+
 ### Shit I always forget
 
 - Light travels slower in denser medium
