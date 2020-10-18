@@ -336,7 +336,34 @@ If uncertainty in position exceeds the space in which the particle is confined t
 
 ### Parts of an X-ray
 
-### Parts of Ultrasound
 
-### MRI Process
+
+### Ultrasound Process
+
+- Alternating current is applied to a piezoelectric cystal
+- Piezoelectric crystal vibrates producing ultrasound waves (Ultrasound transducer emmits waves)
+- Alternating current is turned off
+- Ultrasound waves are reflected at the boundaries between fluid and soft tissue or tissue and bone
+- The ultrasound waves vibrate the piezoelectric crystal producing a alternating current
+- The time taken for these reflections can be used to calculate where the boundaries are located
+- Information is presented in either an A-scan (amplitude-modulated scan) or B-scan (brightness-modulated scan)
+- A-scan is useful to find out where the internal organs are and take a precise measurement of distance
+- B-scan can be used to form a 2D image by taking several B-scans at a time
+
+
+### NMR Process
+
+- When molecules are placed in a strong magnetic field, the spins of the nuclei are aligned to the field
+- A gradient field is applied which aligns the spin of the nuclei in a particular precession (this allows us to determine the postition where the radiation is emitted)
+- A pulse of radio waves at the larmor frequency is applied which causes the nuclei to undergo a spin transition
+- After the pulse, the nucei return to their lower energy state by emitting radio waves
+- The time over which radio waves are emitted is called the relaxation time
+- The radio waves emitted are received by the RF receiver and is used to produce image scan
+- The relaxation times depend on the type of tissue where radiation is emitted
+
+##### Gradient field wizardry
+
+Using 3 intersecting gradient fields, x y z, I can create a 3-dimensional gradient field.
+This is basically like a coordinate system. When used to align the nuclei, the alignment (precession) would tell us the position.
+This way it's possible to produce a 3-dimensional image.
 
