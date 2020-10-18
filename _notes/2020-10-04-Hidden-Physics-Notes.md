@@ -73,19 +73,6 @@ title: Quik Fezixs Noats
 |Coherent Sources|Source of waves with constant phase difference and same frequency|
 |Standing Wave|Wave formed by the superposition of two waves that are of same type, amplitude, frequency and travelling in opposite directions|
 
-### Single slit diffraction
-
-$b\sin\theta=m\lambda$
-- Similar equation to the double slit interference ($d\sin\theta=m\lambda$) equation to find maximas, but in single slit it finds the minimas
-- $\theta$ is the angle from the center to the minimum, this means that the central maximum width is $2\theta$
-- b is the slit width
-
-$\theta = \frac{\lambda}{b}$
-- Equation is derived from above, but used only for the central maximum, hence $m=1\ or\  -1$
-- The $\sin$ disappears because of the small angle. The sine of a small angle is approximately the angle.
-- b is the slit width
-
-
 ### Shit I always forget
 
 - Light travels slower in denser medium
@@ -210,6 +197,17 @@ $n\lambda=d\sin\theta$
 - $\theta$ is the angle from the center to the m-th order of constructive interference
 - $d$ is the slit spacing
 
+### Single slit diffraction
+
+$b\sin\theta=m\lambda$
+- Similar equation to the double slit interference ($d\sin\theta=m\lambda$) equation to find maximas, but in single slit it finds the minimas
+- $\theta$ is the angle from the center to the minimum, this means that the central maximum width is $2\theta$
+- b is the slit width
+
+$\theta = \frac{\lambda}{b}$
+- Equation is derived from above, but used only for the central maximum, hence $m=1\ or\  -1$
+- The $\sin$ disappears because of the small angle. The sine of a small angle is approximately the angle.
+- b is the slit width
 
 ### Diffraction Gratings
 
@@ -335,8 +333,6 @@ If uncertainty in position exceeds the space in which the particle is confined t
 ### Fibre Optics
 
 ### Parts of an X-ray
-
-
 
 ### Ultrasound Process
 
