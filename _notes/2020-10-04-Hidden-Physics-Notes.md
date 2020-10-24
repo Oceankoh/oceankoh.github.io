@@ -110,11 +110,10 @@ Based on definition for electric field strength,
 * $E=\frac{q_f}{4\pi\epsilon_0r^2}$ where $q_f$ is the charge producing the field
 
 Electric potential energy
-* Energy = Force* Distance
+* Energy = Force*Distance
 * $E_p=Fd=\frac{kQq}{r}$
 * Electric potential energy is the amount of work done to bring a charge to that point in that field
 * Hence releasing a charge from that point in the field would mean the $E_p$ would convert to kinetic energy
-
 
 ## Topic 6: Circular Motion
 ### Definitions
@@ -126,6 +125,8 @@ Electric potential energy
 |Gravitational Field Strength|Force per unit mass exerted on a test mass placed at that point|
 
 Difference between vertical and horizontal circular motion
+* Horizontal motion means centripetal force is constnat
+* Vertical circular motion means gravity matters, therefore, centripetal force is changing
 
 ## Topic 7: Nuclear Physics
 ### Definitions
@@ -238,7 +239,6 @@ Visually, using a diffraction grating makes the maxima narrower and more intense
 2. More waves interfere with each other, the intensity is proportional to the square of the amplitude
 3. Narrower because of more destructive interference
 
-
 ### Thin-film interference 
 
 Light waves change phase by $\pi$ or $180^{\circ}$ when reflecting off a medium with higher refractive index (E.g. light from air to glass will change phase, but glass to air will not). 
@@ -256,15 +256,32 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 |:---|:---|
 |Equipotential Surfaces|Regions where the potential is the same|
 |Gravitational Potential Energy|Work done by an external force in bringing a small test mass from infinity to that point|
-|Gravitational Potential| Work done  per unit mass by an external force in bringing a small test mass from infinity to that point|
+|Gravitational Potential| Work done per unit mass by an external force in bringing a small test mass from infinity to that point|
 |Electric Field Strength|Force per unit charge acting on a positive test charge|
-|Electric Potential Energy|Wrok done in moving a small positive test charge from infinity to that point|
+|Electric Potential Energy|Work done in moving a small positive test charge from infinity to that point|
 |Electric Potential|Work done per unit charge in moving a small positive test charge from infinity to that point|
+
+Gravitational Field Strength or Gravity / Electric Field Strength [Units: $Nkg^{-1}$ or $NC^{-1}$]
+- $g =\frac{F}{m} =\frac{GM}{r^2}=-\frac{\Delta V_g}{\Delta r}$
+- $E=\frac{F}{q} = \frac{KQ}{r^2} = \frac{\Delta V_e}{\Delta r}$
+
+Force or Gravitational Force / Electric Force [Units: $N$]
+- weight = mass*gravity
+- $F=mg=\frac{GMm}{r^2}$ / $F=Eq=\frac{kQq}{r^2}$
+
+Gravitational Potential Energy / Electric Potential Energy [Units: $J$] 
+- Energy = Work done = Force*Distance
+- $E_p=Fd=-\frac{GMm}{r}$ / $E_p=Fd=-\frac{kQq}{r}$
+
+Gravitational Potential / Electric Potential or Voltage (Potential difference) [Units: $Jkg^{-1}$ or $JC^{-1} / V$]
+- Potential (Energy per unit mass/charge) vs Potential Energy
+- Alternatively, $V = \frac{W}{m}\ or\ \frac{W}{q} = \frac{Fd}{m} = \frac{Fd}{q}$
+- Hence $V_g=\frac{E_p}{m} = \frac{Fd}{m} =-\frac{GM}{r}$ / $V_e=\frac{E_p}{q}=\frac{Fd}{q}=\frac{kQ}{r}$
 
 ### Difference between gravitational and electrical fields
 
 - Gavitational Fields are only attractive whereas Electric fields are attractive/repulsive
-
+- 
 
 ## Topic 11: Electromagnetic induction
 
