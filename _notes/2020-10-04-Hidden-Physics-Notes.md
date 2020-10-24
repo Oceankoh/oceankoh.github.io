@@ -100,6 +100,22 @@ title: Quik Fezixs Noats
 |Electromotive force|Work done per unit charge in moving a quantity of charge completely around the circuit|
 |Motor Effect|Force induced by the magnetic interaction between a current-carrying wire in a magnetic field|
 
+In a system of 2 *spherical* charges,
+* Each charge must feel a force of the same size as the force on the other charge
+* $F=\frac{kq_1q_2}{r^2}=\frac{q_1q_2}{4\pi\epsilon_0r^2}$
+* Notice that the columb constant $k=\frac{1}{4\pi\epsilon_0}$ is basically for spheres
+
+Based on definition for electric field strength, 
+* $E=\frac{F}{q_{t}}$ where $q_t$ is the charge experience the force by the field
+* $E=\frac{q_f}{4\pi\epsilon_0r^2}$ where $q_f$ is the charge producing the field
+
+Electric potential energy
+* Energy = Force* Distance
+* $E_p=Fd=\frac{kQq}{r}$
+* Electric potential energy is the amount of work done to bring a charge to that point in that field
+* Hence releasing a charge from that point in the field would mean the $E_p$ would convert to kinetic energy
+
+
 ## Topic 6: Circular Motion
 ### Definitions
 
