@@ -281,7 +281,12 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 ### Difference between gravitational and electrical fields
 
 - Gavitational Fields are only attractive whereas Electric fields are attractive/repulsive
-- 
+
+### Important conceptual shit
+
+- Potential is a scalar quantity. When there is more than 1 mass or charge, potential at a point is the sum of individual potentials
+- Inside a charged sphere, potential is the same everywhere. Hence potential gradient is 0, which means field strength is 0.
+- Columnb constant is for spherical charges. For charged parallel plates, use $\frac{\Delta V}{\Delta d}=\frac{V}{d}$ instead of $\frac{kQq}{r}$
 
 ## Topic 11: Electromagnetic induction
 
