@@ -305,10 +305,15 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 ### Rules
 
 * Fleming's left-hand rule
+	- Use to find direction of Force/Current/Field 
 * Fleming's right-hand rule
+	- Use for generators
 * Maxwell's right-hand grip rule
+	- To tell the poles induced by solenoid or Clockwise/Anticlockwise field
 * Lenz's law
+	- Tells us the direction of the force
 * Faraday's law
+	- Look at definition
 
 ### Wires and induction stuff
 
@@ -368,9 +373,44 @@ If uncertainty in position exceeds the space in which the particle is confined t
 |At F|Infinity|-|Virtual, Upright, Diminished|
 |Lesser than F|Same side as Object|Virtual, Upright, Magnified|Virtual, Upright, Diminished|
 
+Power of lens: $\frac{1}{f}$
+
+Points to note:
+- Image is virtual when v is negative
+- Focal length of diverging (concave) lens is negative
+- Focal length of diverging (convex) mirror is negative
+
+Definitions  
+Spherical abberation  
+Chromatic abberation  
+waveguide dispersion   
+modal dispersion  
+chromatic dispersion 
+
 ### Compound Microscopes
 
+- Objective lens forms real magnified image
+- Eyepiece forms virutal magnified image
+- Normal adjustment means final image is form at the near point so that maximum angular magnification is obtained
+- Magnification in normal adjustment: $\frac{h_i}{h_0}$
+
 ### Telescopes
+
+#### Astronomical Refracting Telescope
+
+Image is coming from infinity, hence
+- Objective forms a real diminished image
+- Eyepiece forms a virtual magnified image
+
+#### Astronomical Reflecting Telescope
+
+**Newtonian Mounting** 
+- Uses 1 concave and 1 small flat mirror
+- Eyepiece lens on the side of the telescope
+
+**Cassegrain Mounting**
+- Uses 1 concave and 1 small convex mirror
+- Eyepiece lens behind the concave mirror
 
 ### Fibre Optics
 
@@ -387,7 +427,6 @@ If uncertainty in position exceeds the space in which the particle is confined t
 - Information is presented in either an A-scan (amplitude-modulated scan) or B-scan (brightness-modulated scan)
 - A-scan is useful to find out where the internal organs are and take a precise measurement of distance
 - B-scan can be used to form a 2D image by taking several B-scans at a time
-
 
 ### NMR Process
 
