@@ -81,6 +81,7 @@ title: Quik Fezixs Noats
 
 - Light travels slower in denser medium
 - Light bends towards the normal in a denser medium
+- Critical angle is largest angle for which refraction can occur
 
 ## Topic 5: Electricity and Magnetism
 ### Definitions
@@ -145,6 +146,8 @@ Difference between vertical and horizontal circular motion
 |Mesons|Comprises of 1 quark and 1 antiquark|
 |Exchange particles|Virtual particles mediating force between interacting particles|
 |Antiparticles|Particles with the same mass but different quantum numbers from their corresponding particles|
+|Pair Production|Creation of a subatomic particle and its antiparticle from a neutral boson ($W^\pm$, $Z^0$, $\gamma$, $g$)|
+|Pair Annihilation|Particle and antiparticle collide and annihilate each other, the total energy of the two particles appearing as electromagnetic radiation ($\gamma$)|
 
 ### Conservation laws
 
@@ -162,7 +165,9 @@ Difference between vertical and horizontal circular motion
 * Charm (conserved in all electromagnetic and strong interactions but not always in weak interactions)
 
 ### Feynman Diagrams
-significance of space time
+
+Antiparticles so backwards in time
+Normal particles go forward in time
 
 ## Topic 8: Energy Production
 ### Definitions
@@ -249,6 +254,16 @@ Circular Aperature: $\theta = 1.22\frac{\lambda}{b}$
 - Theta is the minimum angle that 2 objects can be resolved
 - Rayleigh Criterion
 
+### Doppler Effect
+
+For a moving source,
+- Speed of sound with respect to observer is unchanged 
+- Wavelength changes leading to a change in frequency
+
+For a moving observer,
+- Speed of sound with respect to the observer is changed leading to a change in frequency
+- Wavelength remains unchanged
+
 ## Topic 10: Fields 
 ### Definitions
 
@@ -317,7 +332,13 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 
 ### Wires and induction stuff
 
-
+- Questions always like to test combination of the 2 formulas: 
+	- $\Phi = BA\cos\theta$
+	- $\epsilon = -N\frac{\Delta\Phi}{\Delta t}$
+- Also remember the existence of the formulas in topic 5
+	- $F=qvb\sin\theta$
+	- $F=BIL\sin\theta$
+	- Used to find force on moving wire or charge in a magnetic field
 
 ## Topic 12: Quantum Physics
 ### Definitions
@@ -364,6 +385,11 @@ If uncertainty in position exceeds the space in which the particle is confined t
 ## Option C: Light
 ### Lenses and Mirrors
 
+|Term|Definition|
+|:---|:---|
+|Spherical Abberation|Light rays focus at different points after passing through a spherical surface|
+|Chromatic Abberation|Refractive index depends on wavelength of light. Light of different wavelengths refract at different angles and converge at different focal lengths.|
+
 |Object Location|Image Location|Image Properties (Converging - Convex Lens/Concave Mirror) | Image Properties (Diverging - Concave Lens/Convex Mirror)
 |:---:|:---:|:---:|:---:|
 |Infinity|F| Real, Inverted, Diminished|Virtual, Upright, Diminished|
@@ -380,12 +406,6 @@ Points to note:
 - Focal length of diverging (concave) lens is negative
 - Focal length of diverging (convex) mirror is negative
 
-Definitions  
-Spherical abberation  
-Chromatic abberation  
-waveguide dispersion   
-modal dispersion  
-chromatic dispersion 
 
 ### Compound Microscopes
 
@@ -414,7 +434,32 @@ Image is coming from infinity, hence
 
 ### Fibre Optics
 
+|Term|Definition|
+|:---|:---|
+|Chromatic/Waveguide Dispersion||
+|Modal Dispersion/Material Dispersion||
+|Attentuation|Reduction of the intensity or signal strength.|
+
+Graded Index Fibre
+- Refractive index near the edge of the core is less than at the centre
+- Speed of rays which are reflected from the cladding are greater than the speed of rays which travel along the centre of the core
+- Dispersion is lower
+
+Benefits:
+- Greater security
+- High bandwidth
+- Low distortion/Low Noise
+- Low attentuation require less energy
+- Not affected by electromagnetic interference
+
 ### Parts of an X-ray
+
+|Part|Purpose|
+|:---|:---|
+|Aluminium Filter|The aluminium filter will remove lower energy photons from the X-ray beam. Whilst this will reduce the radiation dose to the patient, it will also cause a reduction in image contrast.|
+|Collimator|Narrows the x-ray beams such that the emerging beam is parallel to each other. Prevents unnecessary exposure of anatomy outside the area of interest and reduces scatter radiation from these areas.Modal dispersion is a distortion mechanism occurring in multimode fibers and other waveguides, in which the signal is spread in time because the propagation velocity of the optical signal is not the same for all modes.|
+|Lead Grid|Absorb scatter radiation emitted by body tissues before reaching the film/IP plate in order to increase image contrast and detail.|
+|Air Gap|Literally an air gap between film and patient. Improves image contrast resolution through reducing the amount of scattered radiation that reaches the image detector. Only relatively parallel beams reach the film.|
 
 ### Ultrasound Process
 
@@ -438,7 +483,7 @@ Image is coming from infinity, hence
 - The radio waves emitted are received by the RF receiver and is used to produce image scan
 - The relaxation times depend on the type of tissue where radiation is emitted
 
-##### Gradient field wizardry
+##### Gradient field wizardry (need check)
 
 Using 3 intersecting gradient fields, x y z, I can create a 3-dimensional gradient field.
 This is basically like a coordinate system. When used to align the nuclei, the alignment (precession) would tell us the position.
