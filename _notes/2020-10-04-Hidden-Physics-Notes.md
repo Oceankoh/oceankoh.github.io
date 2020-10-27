@@ -58,6 +58,13 @@ title: Quik Fezixs Noats
 |Temperature|A measure of the average kinetic energy of the molecules of a substance|
 |Kinetic Theory of Gases|The relation of macroscopic behaviorof an ideal gas to the behavior of its molecules|
 
+Assumptions of kinetic model of an ideal gas
+- Gas molecules are constantly moving
+- They have negligible volume
+- Have negligible intermolecular forces
+- Undergo perfectly elastic collisions
+- Mass of the molecule is negligibly small
+- Ideal gas assumes monatomic particles
 
 ## Topic 4: Waves
 ### Definitions
