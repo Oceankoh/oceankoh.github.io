@@ -36,7 +36,7 @@ title: Quik Fezixs Noats
 |Efficiency|Ratio of useful energy output to total energy output|
 |Impulse|Change in momentum caused by a force|
 |Elastic Collision|Conserves both momentum and kinetic energy|
-|Inelastic collision|Conserves momentum and kinetic energy|
+|Inelastic collision|Conserves momentum and but not kinetic energy|
 |Newton's first law of motion|An object at rest will remain at rest and an object in motion will continue in motion at constant speed in a straight line in the absence of a net force acting on it|
 |Netwon's second law of motion|The rate of change of momentum of a body is directly proportional to the netforce acting on it and takes place in the direction of the force|
 |Newton's third law of motion|When 2 bodies A and B interact, theforce that A exerts on B is equaland opposite to the force that B exerts on A|
