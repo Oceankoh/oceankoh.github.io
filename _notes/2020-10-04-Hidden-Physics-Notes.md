@@ -39,7 +39,7 @@ title: Quik Fezixs Noats
 |Inelastic collision|Conserves momentum and but not kinetic energy|
 |Newton's first law of motion|An object at rest will remain at rest and an object in motion will continue in motion at constant speed in a straight line in the absence of a net force acting on it|
 |Netwon's second law of motion|The rate of change of momentum of a body is directly proportional to the netforce acting on it and takes place in the direction of the force|
-|Newton's third law of motion|When 2 bodies A and B interact, theforce that A exerts on B is equaland opposite to the force that B exerts on A|
+|Newton's third law of motion|When 2 bodies A and B interact, theforce that A exerts on B is equal and opposite to the force that B exerts on A|
 |Principle of conservation of Energy|Energy cannot be created or destroyed but may be converted from one form to another but the total amount of energy in an isolated system remains constant|
 |Conservation of Momentum|Total momentum of a closed system is constant provided no external resultant force acts on it|
 
@@ -50,19 +50,19 @@ title: Quik Fezixs Noats
 |Term|Definition|
 |:---|:---|
 |Boyle's Law|For a gas at a constant temperature the volume and pressure are inversely proportional|
-|Charles' Law|If the mass and presure of a gas are constant, the volume is directly proportional to its aboslute temperature|
+|Charles' Law|If the mass and presure of a gas are constant, the volume is directly proportional to its absolute temperature|
 |Avogadro's constant|Number of atoms in 12 grams of carbon-12|
 |Internal Energy|Sum of the potential energy and random kinetic energy of all the particles in a substance|
 |Properties of an ideal gas|An ideal gas consists of a large number of identical molecules. The volume occupied by the molecules themselves is negligible compared to the volume occupied by the gas. The molecules obey Newton's laws of motion, and they move in random motion|
 |Ideal Gas|A gas with no intermolecular force that obeys the ideal gas law, pV = nRT at all temperatures, pressures and volumes|
 |Temperature|A measure of the average kinetic energy of the molecules of a substance|
-|Kinetic Theory of Gases|The relation of macroscopic behaviorof an ideal gas to the behavior of its molecules|
+|Kinetic Theory of Gases|The relation of macroscopic behaviour of an ideal gas to the behaviour of its molecules|
 
 Assumptions of kinetic model of an ideal gas
 - Gas molecules are constantly moving
 - They have negligible volume
 - Have negligible intermolecular forces
-- Undergo perfectly elastic collisions
+- Undergo elastic collisions
 - Mass of the molecule is negligibly small
 - Ideal gas assumes monatomic particles
 
@@ -73,7 +73,7 @@ Assumptions of kinetic model of an ideal gas
 |:---|:---|
 |Amplitude|Maximum magnitude of displacement from the equilibrium position|
 |Simple Harmonic Motion|Oscillatory motion in which acceleration is directly proportional to displacement from point of equilibrium and always directed towards that point|
-|Intensity|Rate of energy flow per unit cross-sectional area perpendicular to the direction of wave-propogation|
+|Intensity|Rate of energy flow per unit cross-sectional area perpendicular to the direction of wave-propagation|
 |Superposition|When two similar waves meet the resultant displacement is the vector sum of individual displacements|
 |Modulation|Occurs when the intensitiesof the maxima of the double slit interference pattern is enveloped by the intensity of the single slit interference pattern (basically interference pattern of both single and double slit at the same time)|
 |Critical Angle|Angle of incidence in an optically denser medium for which the angle of refraction in the less dense medium is $90^{\circ}$|
@@ -362,7 +362,7 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 |Wave function|The square of the amplitude of the wave function represents the probability of finding the particle at that position at that time.|
 
 
-### Quantum vs Relativistic behaviors
+### Quantum vs Relativistic behaviours
 
 Quantum Equations and it's relativistic counterparts
 
