@@ -88,7 +88,7 @@ Assumptions of kinetic model of an ideal gas
 
 ### Electromagnetic Spectrum
 
-![Em Spectrum](http://butane.chem.uiuc.edu/pshapley/GenChem2/A3/electromagnetic-spectrum.jpg){:width="600"}
+![Em Spectrum](../attachments/emspectrum.jpg){:width="600"}
 
 ### Shit I always forget
 
