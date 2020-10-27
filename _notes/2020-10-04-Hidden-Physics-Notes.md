@@ -146,7 +146,7 @@ Difference between vertical and horizontal circular motion
 |Unified Atomic Mass Unit|Equal to 1/12 the mass of a carbon-12 atom|
 |Mass Defect|Difference between total mass of the constituents of a nucleus and the mass of the nucleus|
 |Elementary particles|Subatomic particle with no structure|
-|Hardons|Comprise of quarks and include baryons and mesons|
+|Hadrons|Comprise of quarks and include baryons and mesons|
 |Leptons|Lighter and more loosely bound particles like electrons|
 |Quarks|Heavier, tightly bound particles that make up particles like protons and neutrons|
 |Baryons|Comprises of 3 quarks|
