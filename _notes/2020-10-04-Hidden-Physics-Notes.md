@@ -492,7 +492,4 @@ Benefits:
 
 ##### Gradient field wizardry (need check)
 
-Using 3 intersecting gradient fields, x y z, I can create a 3-dimensional gradient field.
-This is basically like a coordinate system. When used to align the nuclei, the alignment (precession) would tell us the position.
-This way it's possible to produce a 3-dimensional image.
-
+Frequency of EM (radio) waves emitted depends on the magnetic field strength B. With a gradient field, B varies at different points so the gradient field allows the determination of the (exact) point from which the photons are emitted (every part of the body has a different magnetic field strength & a different frequency of precession/Larmor frequency).
