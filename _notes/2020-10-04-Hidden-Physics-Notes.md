@@ -88,7 +88,7 @@ Assumptions of kinetic model of an ideal gas
 
 ### Electromagnetic Spectrum
 
-![Em Spectrum](../attachments/emspectrum.jpg){:width="600"}
+![Em Spectrum](../attachments/notes/emspectrum.jpg){:width="600"}
 
 ### Shit I always forget
 
