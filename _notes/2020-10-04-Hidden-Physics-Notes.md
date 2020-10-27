@@ -66,6 +66,12 @@ Assumptions of kinetic model of an ideal gas
 - Mass of the molecule is negligibly small
 - Ideal gas assumes monatomic particles
 
+**Important conceptual shit**
+- Ideal gas has no potential energy
+- Potential energy is negative. 
+- Hence Gas got more internal energy than liquid and solid because they don't have potential energy
+- When heating, work is done to overcome the potential energy, thus reducing it to 0
+
 ## Topic 4: Waves
 ### Definitions
 
@@ -394,8 +400,8 @@ If uncertainty in position exceeds the space in which the particle is confined t
 
 |Term|Definition|
 |:---|:---|
-|Spherical Abberation|Light rays focus at different points after passing through a spherical surface|
-|Chromatic Abberation|Refractive index depends on wavelength of light. Light of different wavelengths refract at different angles and converge at different focal lengths.|
+|Spherical Aberration|Light rays focus at different points after passing through a spherical surface|
+|Chromatic Aberration|Refractive index depends on wavelength of light. Light of different wavelengths refract at different angles and converge at different focal lengths.|
 
 |Object Location|Image Location|Image Properties (Converging - Convex Lens/Concave Mirror) | Image Properties (Diverging - Concave Lens/Convex Mirror)
 |:---:|:---:|:---:|:---:|
