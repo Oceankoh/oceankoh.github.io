@@ -457,8 +457,8 @@ Image is coming from infinity, hence
 
 |Term|Definition|
 |:---|:---|
-|Chromatic/Waveguide Dispersion||
-|Modal Dispersion/Material Dispersion||
+|Chromatic/Material Dispersion|As light travels along an optical fibre, different frequencies will travel at slightly different speeds. This means that if the source of light involves a range of frequencies, then a pulse that starts out as a square wave will tend to spread out as it travels along the fibre.|
+|Modal Dispersion/Waveguide Dispersion| The path length along the centre of a bre is shorter than a path that involves multiple reections. This means that rays from a particular pulse will not all arrive at the same time because of the different distances they have travelled|
 |Attentuation|Reduction of the intensity or signal strength.|
 
 Graded Index Fibre
@@ -482,10 +482,21 @@ Benefits:
 |Lead Grid|Absorb scatter radiation emitted by body tissues before reaching the film/IP plate in order to increase image contrast and detail.|
 |Air Gap|Literally an air gap between film and patient. Improves image contrast resolution through reducing the amount of scattered radiation that reaches the image detector. Only relatively parallel beams reach the film.|
 
+2 types of scattering: Simple scattering and Photoelectric effect
+
+Linear Attentuation coefficient: Probability of a single electron being absorbed in 1m of material  
+Mass Attentuation coefficient: ^ that but instead of per unit length it's per unit mass so you divide by density. So you have $I=I_0 e^{-(\frac{\mu}{\rho})\rho x}$
+
 ### Ultrasound Process
 
+|Term|Definition|
+|:---|:---|
+|Acoustic Impedeance|The acoustic impedance of a substance is the product of the density, ρ, and the speed of sound, c|
+|Resolution|Size of smallest object that can be imaged|
+
+
 - Alternating current is applied to a piezoelectric cystal
-- Piezoelectric crystal vibrates producing ultrasound waves (Ultrasound transducer emmits waves)
+- Piezoelectric crystal vibrates producing ultrasound waves (Ultrasound transducer emits waves)
 - Alternating current is turned off
 - Ultrasound waves are reflected at the boundaries between fluid and soft tissue or tissue and bone
 - The ultrasound waves vibrate the piezoelectric crystal producing a alternating current
