@@ -322,7 +322,7 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 
 |Term|Definition|
 |:---|:---|
-|Magnetic Flux (Linkage)|Measure of the component of themagnetic field passing though the surface and is proportional to the number of magnetic field lines which intersect the surface (through a coil)|
+|Magnetic Flux (Linkage)|Measure of the component of the magnetic field passing though the surface and is proportional to the number of magnetic field lines which intersect the surface (through a coil)|
 |Faraday's Law of Induction|Magnitude of the induced emf is proportional to the rate of change of the flux linkage|
 |Lenz's Law|Induced EMF acts in the direction such that the current induced opposes the change which caused it|
 |Rectification|Conversion of alternating current to direct current using diodes|
@@ -361,16 +361,24 @@ Gravitational Potential / Electric Potential or Voltage (Potential difference) [
 |Photoelectric Effect|Emission of electrons from a metal's surface when electromagnetic radiation of sufficiently high frequency is shone on it|
 |Work Function|Minimum amount of energy required for an electron to escape from the surface of a metal|
 |DeBroglie Hypothesis|There is a wavelength manifested in all the objects given by the equation $\lambda=\frac{h}{p}$ where $h$ is Plank's Constant and $p$ is momentum|
-|Pair production|When a high energy photon collides with a nucleus, it makes a pair o electron and positron|
+|Pair production|When a high energy photon collides with a nucleus, it makes a pair of electron and positron|
 |Pair annihilation|Matter collides with its corresponding antimatter, they annihiliate one another with the conservation of energy, momentum, and charge|
 |Heisenberg Uncertainty Principle|Position and momentum cannot be simultaneously measured with precision|
 |Decay Constant|Probability of dcay of a single nucleus per unit time|
 |Wave function|The square of the amplitude of the wave function represents the probability of finding the particle at that position at that time.|
 
 
-### Quantum vs Relativistic behaviours
+### Newtonian vs Relativistic behaviours
 
-Quantum Equations and it's relativistic counterparts
+Some kinematics equations can't be used when dealing with small little shits. 
+At low velocities, relativistic momentum is equivalent to classical momentum. 
+The same is not true at high velocities (close to speed of light). This shit probably don't need to worry too much.
+
+Also here are some equations not in the formula booklet
+
+$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE} = \frac{hc}{E}$
+
+$E^2=(mc^2)^2 + (pc)^2$
 
 ### Photoelectric effect and stopping potential experiment
 
