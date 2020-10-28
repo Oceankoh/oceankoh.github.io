@@ -473,6 +473,10 @@ Benefits:
 - Low attentuation require less energy
 - Not affected by electromagnetic interference
 
+Fiber optic transmission wavelengths are determined by two factors: longer wavelengths in the infrared for lower loss in the glass fiber and at wavelengths which are between the absorption bands. Thus the normal wavelengths are 850, 1300 and 1550 nm. Fortunately, we are also able to make transmitters (lasers or LEDs) and receivers (photodetectors) at these particular wavelengths.
+
+If the attenuation of the fiber is less at longer wavelengths, why don't we use even longer wavelengths? The infrared wavelengths transition between light and heat, like you can see the dull red glow of an electric heating element and feel the heat. At longer wavelengths, ambient temperature becomes background noise, disturbing signals. And there are significant water bands in the infrared.
+
 ### Parts of an X-ray
 
 |Part|Purpose|
