@@ -206,7 +206,7 @@ $\frac{1}{6}|\textbf{a}\cdot (\textbf{b}\times \textbf{c})|$
 ### Inverse Trigonometric Integrals
 * $\int\frac{1}{\sqrt{a^2-(bx)^2}}dx=\frac{1}{b}\sin(\frac{bx}{a})+C$
 
-* $\int\frac{1}{\sqrt{a^2+(bx)^2}}dx=\frac{1}{ab}\tan(\frac{bx}{a})+C$
+* $\int\frac{1}{a^2+(bx)^2}dx=\frac{1}{ab}\tan(\frac{bx}{a})+C$
 
 TODO: implicit differentiation and concavity
 
