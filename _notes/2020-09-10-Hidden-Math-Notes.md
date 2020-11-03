@@ -85,7 +85,7 @@ $y=cf(bx+a)+d$
 ![](https://i.pinimg.com/originals/f7/19/e7/f719e7c00ada7f8bd5320d4909fc304d.png){:width="750"}
 
 #### Inverse Trigonometry 
-![](https://lh3.googleusercontent.com/proxy/g-Kuxdz-fwmkBpq2FnSzMKyHVRNMmgkjChCDZ7yXr51_kQJSf8PC6AbCEgNVu9mtzlaUb-Qz5iCPdKb2UNyrwO2VjZ1-6ZI8D9OL178lAspkHKU){:width="750"}
+![](https://slideplayer.com/slide/13391987/80/images/2/Inverse+Trig+functions.jpg){:width="750"}
 
 #### Reciprocal Function
 * $x$ intercepts become vertical asymtotes
