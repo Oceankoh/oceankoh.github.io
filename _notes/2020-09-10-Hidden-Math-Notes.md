@@ -30,7 +30,7 @@ $\alpha=\pi-\theta$
 * $-\frac{\pi}{2}<\theta<0$:  
 $\alpha=-\theta$
 	
-* $-\frac{\pi}{2}<\theta < -\frac{\pi}{2}$:  
+* $-\pi<\theta < -\frac{\pi}{2}$:  
 $\alpha=-(\pi-\theta)$
 
 Find $\tan\alpha$, the ratio between imaginary and real parts  
