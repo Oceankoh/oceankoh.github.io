@@ -37,7 +37,7 @@ owner:
   avatar: water.png
   job: Student
   bio: "Slightly overgrown"
-  email:
+  email: 
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -52,7 +52,7 @@ owner:
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
-  skype: #username
+  skype: #usern
   xing: #username
   instagram: 
   lastfm: #username
@@ -73,7 +73,7 @@ owner:
 collections:
   projects:
     output: true
-  notes:
+  IB:
     output: true
 
 # Google Analytics
