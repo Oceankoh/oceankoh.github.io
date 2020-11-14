@@ -395,7 +395,7 @@ Coefficient of regression $x$ on $y$: $d=\frac{\sum\limits_{i=1}^{n}(x_i y_i)-n\
 |Find point on Normal Distribution with area|`menu`+`6`+`5`+`3: Inverse Normal`|-|-|
 |Find point on T Distribution with area|`menu`+`6`+`5`+`6: Inverse t`|-|-|
 |Find z-interval|`menu`+`6`+`6`+`1: z Interval`+`Data`/`Stats`|-|-|
-|Find t-interval|`menu`+`6`+`6`+`1: z Interval`+`Data`/`Stats`|-|-|
+|Find t-interval|`menu`+`6`+`6`+`1: t Interval`+`Data`/`Stats`|-|-|
 |Hypothesis testing with z-test|`menu`+`6`+`7`+`1: z Test`|-|-|
 |Hypothesis testing with t-test|`menu`+`6`+`7`+`2: t Test`|-|-|
 |Hypothesis testing of $\rho$|`menu`+`6`+`7`+`A: Linear Reg t Test`|-|-|
