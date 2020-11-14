@@ -7,4 +7,4 @@ document: ExampleList.docx
 
 ### These are the examples in preparation for Econs paper 1
 
-<iframe src='https://view.officeapps.live.com/op/embed.aspx?src={{site.url}}/download/{{ page.document }}' width='1000px' height='1500px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'></a><a target='_blank' href='http://office.com/webapps'></a>.</iframe>
+<iframe src='https://view.officeapps.live.com/op/embed.aspx?src={{site.url}}/download/{{ page.document }}' width='900px' height='1200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'></a><a target='_blank' href='http://office.com/webapps'></a>.</iframe>
