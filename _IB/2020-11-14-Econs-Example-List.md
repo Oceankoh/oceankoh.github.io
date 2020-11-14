@@ -2,7 +2,7 @@
 layout: post
 title: Example List
 subject: Economics
-document: ExampleList.docx
+document: Econs/ExampleList.docx
 ---
 
 ### These are the examples in preparation for Econs paper 1
