@@ -2,7 +2,6 @@
 layout: IB_listing
 ---
 
-
 <h1> My IB Journey </h1>
 
 <h3> The following are a compilation of some of my notes and work that I did. </h3>
@@ -71,6 +70,25 @@ layout: IB_listing
 
 {% for post in site.IB %}
 	{% if post.subject == "Langlit" %}
+		<div class="post">
+		  <header class="post-header">
+		    <p class="post-meta">
+		    </p>
+		    <h4>
+		      <a href="{{ site.url }}{{ post.url }}" class="ib-title" title="{{ post.title | escape }}">{{ post.title }}</a>
+		      {% if post.link %}
+		      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="fa fa-external-link"></i></a>
+		      {% endif %}
+		    </h4>
+		    </header>
+		</div>
+	{% endif %}
+{% endfor %}
+
+<h3> SL Economics </h3> 
+
+{% for post in site.IB %}
+	{% if post.subject == "Economics" %}
 		<div class="post">
 		  <header class="post-header">
 		    <p class="post-meta">
