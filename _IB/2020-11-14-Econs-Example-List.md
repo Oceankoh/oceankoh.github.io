@@ -7,4 +7,4 @@ document: Econs/ExampleList.docx
 
 ### These are the examples in preparation for Econs paper 1
 
-{% include docx.html %}
+{% include docx_a4_portrait.html %}
