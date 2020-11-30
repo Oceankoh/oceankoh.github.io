@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quik Maf Noats
+title: Math Notes
 subject: Mathematics
 ---
 
