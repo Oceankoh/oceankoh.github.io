@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quik Fezixs Noats
+title: Physics Notes
 subject: Physics
 ---
 
@@ -382,7 +382,7 @@ The same is not true at high velocities (close to speed of light). This shit pro
 
 Also here are some equations not in the formula booklet
 
-$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE} = \frac{hc}{E}$
+$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE}) = \frac{hc}{E}$
 
 $E^2=(mc^2)^2 + (pc)^2$
 
