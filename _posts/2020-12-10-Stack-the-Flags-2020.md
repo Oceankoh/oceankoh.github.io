@@ -6,7 +6,7 @@ title: Stack the Flags CTF 2020
 Introduction 
 ------ 
  
-Local CTF organised by GovTech. First CTF in quite a while for our team due to IB examinations. It was a fun weekend with very tough competition. The following are the writeups by my team. I was not involved in the solutions of all challenges. So credits to my teammates [MiloTruck](https://milotruck.github.io), [jloh02](https://jloh02.github.io) and Nyxto(https://github.com/Nyxto).
+Local CTF organised by GovTech. First CTF in quite a while for our team due to IB examinations. It was a fun weekend with very tough competition. The following are the writeups by my team. I was not involved in the solutions of all challenges. So credits to my teammates [MiloTruck](https://milotruck.github.io), [jloh02](https://jloh02.github.io) and [Nyxto](https://github.com/Nyxto).
  
  
 ## Overview 
@@ -15,12 +15,6 @@ Position: 3
 Score: 37754  
  
 ![](https://i.imgur.com/gxuIIs9.jpg) 
- 
-## Binary Exploitation 
-### Beta Reporting System 
-Points: 994  
-Solves: 4  
-@MiloTruck  
  
 ## Cloud 
 ### Find the leaking bucket! 
@@ -297,7 +291,7 @@ Similar to the previous string, since they tell you that that text is NOT the fl
  
 ![](https://i.imgur.com/5xnrpdH.png) 
  
-Flag: `govtech-csg{3uph0n1ou5_@ud10_ch@ll3ng3}` 
+**Flag**: `govtech-csg{3uph0n1ou5_@ud10_ch@ll3ng3}` 
  
 ## Internet of Things 
 ### COVID's Communication Technology! 
@@ -1054,7 +1048,7 @@ Upon closer inspection, we see that in the Todo, there is a point about how not 
 
 After wrapping it in the flag format, we try to submit the flag and... it was correct after all :)
 
-Flag: `govtech-csg{krs-admin-portal}`
+**Flag**: `govtech-csg{krs-admin-portal}`
 
 found comment left by dev 
 followed search for @joshhxy on gitlab 
@@ -1152,7 +1146,7 @@ Googling the location of Social Space we see that there are 2 branches.
 ![](https://i.imgur.com/NPYQ5rF.png) 
 However we also know that Lau Pa Sat is just a few minutes away. Hence it is more likely that he was referring to the branch at Marina One rather than the one at Outram. Now we have our postal code: 018925. Our final flag is 
  
-Flag: govtech-csg{LionelChengXiangYi_963672918_018925} 
+**Flag**: govtech-csg{LionelChengXiangYi_963672918_018925} 
  
 ### Who are the possible kidnappers? 
 Points: 1990 
@@ -1500,6 +1494,6 @@ Now we just need to submit use this token to make the GET request and sure enoug
  
 ![](https://i.imgur.com/r0HqOCy.png) 
  
-Flag: `govtech-csg{5!gN_0F_+h3_T!m3S}` 
+**Flag**: `govtech-csg{5!gN_0F_+h3_T!m3S}` 
  
 This took me a while because I only saw the hint after about 30 mins to an hour of trying. I guess my biggest takeaway from this challenge is to always do recon properly first and don't just blindly jump straight in and try exploit. 
