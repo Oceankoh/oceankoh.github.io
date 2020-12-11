@@ -49,7 +49,7 @@ Promising... Seems like we found the bucket. Again using aws-cli, we download th
    
 But our job is not done yet. When we try to unzip the files, we are prompted for a password (nani???). Immediately we thought of cracking the zip. With a few simple commands, we already had JTR brute forcing the zip. But after running it for a few seconds, we sorta knew this wasn't the solution. If JTR wasn't able to insta-crack it with rockyou.txt, it's quite safe to say the password is strong. However, we weren't out of options just yet. While attempting to unzip, we also see that there are 2 files in the zip.    
    
-```   
+```bash
 ERROR: Wrong password : flag.txt   
 ERROR: Wrong password : STACK the Flags Consent and Indemnity Form.docx   
 ```   
@@ -125,7 +125,8 @@ We are given a `.mem` file (Memory dump). We can use the premier tool for memory
 For those who are using volatility for your first time, the format for each command is `vol -f <file> <plugin/command>`   
    
 From previous CTFs, I follow a standard procedure (assuming it is a Windows machine which is typical of many CTFs), running `imagescan` then `pslist`. This is a very good starting point as it gives an idea of the machine profile. Think of profiles as a type of Windows machine (ie Windows7, WindowsXP, etc).    
-```   
+
+```bash
 $ vol -f forensics-challenge-1.mem imageinfo   
 Volatility Foundation Volatility Framework 2.6.1   
 INFO    : volatility.debug    : Determining profile based on KDBG search...   
@@ -134,8 +135,10 @@ INFO    : volatility.debug    : Determining profile based on KDBG search...
 .   
 .   
 ```   
+
 We can choose the first suggested profile, then run `pslist` to check that the profile chosen works well. Remember to append `--profile=<chosen_profile>` in each volatility command now. `pslist` would return the entire process list.   
-```   
+
+```bash   
 $ vol -f forensics-challenge-1.mem --profile=Win7SP1x64 pslist   
 Volatility Foundation Volatility Framework 2.6.1   
 Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit   
@@ -182,7 +185,8 @@ To analyze a Google Chrome history, we can use the `filescan` and `dumpfiles` pl
 Alternatively, we can install the `chromehistory` plugin from https://github.com/superponible/volatility-plugins. If your volatility was compiled from source, you can copy the plugin files into `volatility/volatility/plugins` rather than passing the `--plugins=<directory>` argument. This makes it easier to install plugins though it can get very messy if you wish to uninstall them so I only advise to do this if you really want the convenience of installing plugins which you KNOW work.   
    
 Most of the websites here are fluff as one could tell from random Google searches and going to STACK conference website homepage. However, 2 lines caught my attention:   
-```   
+
+```bash
 $ vol -f forensics-challenge-1.mem --profile=Win7SP1x64 chromehistory   
 .   
 .   
@@ -209,7 +213,8 @@ However, the real technical term for a similar file is a bitmap (.BMP). An uncom
 > vogcetc-h{gsm3myr03R_rGdn33ulB}z3   
    
 Yet another alternative, if you are more familiar with tools, is to use [zsteg](https://github.com/zed-0xff/zsteg) which is able to produce different steganographic outputs, including lowest significant bit (LSB) and RGB bytes.   
-```   
+
+```bash
 $ zsteg -a image.png   
 b8,r,lsb,xy         .. text: "gthsm0_d3B3"   
 b8,g,lsb,xy         .. text: "oe-g3rRG3lz"   
@@ -278,7 +283,7 @@ The only string we've got is `thisisnottheflag` from the brainf\*ck code. When t
 #### Extracting the ZIP contents   
 While attempting to extract the ZIP, a password was requested. Since trying the same password (`thisisnottheflag`) doesn't work, looks like we don't have a password this time. What if the password was stored in plaintext, such as in a comment, in the ZIP? Running `strings` would return the following:   
    
-```   
+```bash
 $ strings xiao.zip   
 .   
 .   
@@ -362,7 +367,7 @@ In addition, we notice that the last quarter of the data packets given are not a
    
 Using the Python script below, the bits of the data can be extracted including the headers and addresses. Thresholds for headers and timings between bits could be empirically derived from Saleae in case the transmission does not directly correspond to the original NEC IR specifications.    
    
-```python=2   
+```python   
 import pandas as pd   
    
 # Empirically determined timings for 0s and 1s   
@@ -418,6 +423,7 @@ The output of the above script produces a text file including headers and addres
 ```   
    
 Since the address and its logical inverse is consistent throughout (only 1 destination address), the header, address and inverse address can be removed. I used a simple find and replace in a text editor to remove `10000000011111111`. The first 2 lines can also be excluded since they are null bytes.   
+
 ```   
 0110011101101111   
 0111011001110100   
@@ -451,6 +457,7 @@ Solves: 5
    
 #### Initial Analysis   
 We are provided with a `iot-challenge-3.pcap` file, which can be analysed using Wireshark. As usual, I use a simple `strings` command first to check for anything interesting:   
+
 ```   
 Galaxy S7 edge   
 _tk   
@@ -472,6 +479,7 @@ _gmon_start__
 IBC_2.4   
 Boss: Can u help me check smth on my com real quick   
 ```   
+
 It seems there is unencrypted data in the given file. We can tell there are two things to be extracted:   
 * Messages, such as `Bro: Dude did u ate my chips`   
 * An `ELF executable, ARM`, which can be seen from the presence of common glibc functions and `x-armhf.so.3`   
@@ -525,7 +533,7 @@ Now that we know how to filter the relevant packets, we need to extract the data
 | `-e <field>`                                               | field to print if -Tfields selected (e.g. tcp.port) |
    
 Thus, data can be extracted using the command:   
-```   
+```bash   
 tshark -r iot-challenge-3.pcap -T -Y "frame.len>14 && btatt.handle==0x008f" -e "btatt.value"   
 ```   
    
@@ -726,12 +734,12 @@ Dump of assembler code for function magic:
 End of assembler dump.   
 ```   
 In `x86 ARM` architecture, return values are stored in registers (`r0` in this case). We set a breakpoint right before `magic()` ends, with the following:   
-```   
+```bash
 (gdb) b *magic+84   
 Breakpoint 1 at 0x1081c   
 ```   
 As we want to print the value stored in `r0` as a character everytime the breakpoint is hit, we can use the `define hook-stop` command:   
-```   
+```bash   
 (gdb) define hook-stop   
 Type commands for definition of "hook-stop".   
 End with a line saying just "end".   
@@ -740,7 +748,7 @@ End with a line saying just "end".
 ```   
    
 We then continue execution three times until the character printed is no longer correct.    
-```   
+```bash   
 (gdb) c   
 Continuing.   
 $8 = 97 'a'   
@@ -769,7 +777,7 @@ if ( buf[3] == magic(2 * buf[1] - 51) ) ++i;
    
 Thus, we restart execution and enter `aNtaaaa` as input:   
 _In gdb terminal window_   
-```   
+```bash   
 (gdb) kill   
 Kill the program being debugged? (y or n) y   
 [Inferior 1 (process 1) killed]   
@@ -779,13 +787,13 @@ Remote debugging using localhost:1234
 ```   
    
 _In other terminal window_   
-```   
+```bash   
  $ qemu-arm -g 1234 ./elf_file   
  Secret?aNtaaaa   
 ```   
     
 This allows us to obtain more correct characters in **gdb**:   
-```   
+```bash   
  (gdb) c   
 Continuing.   
 $13 = 97 'a'   
@@ -819,7 +827,7 @@ Breakpoint 1, 0x0001081c in magic ()
 ```   
    
 We repeat the process, which gives us the entire flag before the program terminates:   
-```   
+```bash
 (gdb) c   
 Continuing.   
 $21 = 97 'a'   
@@ -863,7 +871,7 @@ No registers
 ```   
    
 The above shows us the secret pass is `aNtiB!e`. Let us check:   
-```   
+```bash
 $ qemu-arm elf_file   
 Secret?aNtiB!e   
 Authorised!   
@@ -899,7 +907,7 @@ Common sense tells us to scan the barcode on the image. Using barcode scanning a
    
 The common tool to use when we analyze this image is `exiftool`. This can give us metadata about the image such as time and location. However, time is pretty much out of the question as the file had to be downloaded, likely altering the creation and modification timestamps.    
    
-```bash  
+```
 $ exiftool osint-challenge-6.jpg   
 ExifTool Version Number         : 11.88   
 File Name                       : osint-challenge-6.jpg   
@@ -1082,7 +1090,7 @@ Solves: 14
    
 #### Analysing the Email   
 We are given an eml file. Opening it in a text editor reveals the following.    
-```   
+```
 X-Pm-Origin: internal   
 X-Pm-Content-Encryption: end-to-end   
 Subject: YOU ARE WARNED!   
@@ -1477,7 +1485,7 @@ Since I'm lazy to code and there are already many existing tools on github for J
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pbmlvbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTYwNzUzNDg3NX0.Unoy8MAMqqoEqqLVWf5DQ6_oljR1L9f8oahKA9Zp8SQ`   
    
 Its decoded contents:   
-```   
+```bash   
 =====================   
 Decoded Token Values:   
 =====================   
