@@ -515,12 +515,14 @@ _Note: Check out [Wireshark's display filter expressions](https://www.wireshark.
    
 #### Extracting data bytes   
 Now that we know how to filter the relevant packets, we need to extract the data bytes from these packets. This can be done using `tshark`. Using `tshark -h`, we find these relevant options:   
-| Option and Format                                          | Explanation                                         |   
-|------------------------------------------------------------|-----------------------------------------------------|   
-| `-r <infile>, --read-file <infile>`                        | set the filename to read from (or '-' for stdin)    |   
-| `-Y <display filter>, --display-filter <display filter>`   | packet display filter in Wireshark display filter   |   
-| `-T pdml|ps|psml|json|jsonraw|ek|tabs|text|fields` | format of text output                               |   
-| `-e <field>`                                               | field to print if -Tfields selected (e.g. tcp.port) |   
+
+
+| Option and Format                                          | Explanation                                         |
+|:---|:---|
+| `-r <infile>, --read-file <infile>`                        | set the filename to read from (or '-' for stdin)    |
+| `-Y <display filter>, --display-filter <display filter>`   | packet display filter in Wireshark display filter   |
+| `-T pdml|ps|psml|json|jsonraw|ek|tabs|text|fields` | format of text output                               |
+| `-e <field>`                                               | field to print if -Tfields selected (e.g. tcp.port) |
    
 Thus, data can be extracted using the command:   
 ```   
