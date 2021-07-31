@@ -1,5 +1,5 @@
 ---
-layout: write-up
+layout: post
 title: Timisoara CTF Qualifiers 2019
 ---
 

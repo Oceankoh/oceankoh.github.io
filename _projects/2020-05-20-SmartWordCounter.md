@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Smarter Word Counter
 excerpt: Microsoft Word VBA Script to exclude certain words from word count
 categories: Macros, Scripting, IB

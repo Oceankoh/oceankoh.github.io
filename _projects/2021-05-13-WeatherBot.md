@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Army CAT 1 Weather Bot
 excerpt: Telegram Bot to notify user when there is CAT 1 Lightning Risk Alert for a specific area
 categories: NS, Telegram, Python
