@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for post in site.write-ups %}
+<div class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        {{ post.date | date: "%-d %b %Y" | upcase }}
+      </span>
+    </p>
+    <h4>
+      <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
+      {% if post.link %}
+      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="fa fa-external-link"></i></a>
+      {% endif %}
+    </h4>
+    </header>
+</div>
+{% endfor %}
