@@ -13,7 +13,7 @@ I recently participated in the Timisoara CTF Quals 2019 under the team acsii. We
 
 Crypto
 ------
-#### Don't Trust Time [200]
+### Don't Trust Time [200]
 
 We are given 3 files: source code, binary, encoded flag. By analysing the source code, we can see that there is a seed determined by time(0). A quick google tells us time(0) return s us the current unix timestamp in seconds. This means, if we know when the program was executed, we are able to find to seed. Lucky for us, we can rougly estimate the time from the metadata of the encoded flag file. `Exiftool` gives us the following details:
 
@@ -85,7 +85,7 @@ After compiling and executing the code with given enc_flag as the input file, we
 
 Forensics
 ------
-#### Deleted File [100]
+### Deleted File [100]
 
 The challenge provided us with a a `.img` file. Running file on it gives us:
 
@@ -121,7 +121,7 @@ Viewing the png gives us the flag: `flag{I_s33_the_uns33n}`
 
 Web
 ------
-#### Secret Key of Swag [150]
+### Secret Key of Swag [150]
 
 The link provided lead us to a completely empty site (actually just all white). Inspecting element also didn't show anything in the HTML. However we are provided with the source code of the site which is as follows: 
 

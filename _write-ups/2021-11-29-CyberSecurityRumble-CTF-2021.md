@@ -5,7 +5,8 @@ title: CyberSecurityRumble CTF 2021
 
 
 Web
-------
+------  
+
 #### Payback
 
 The challenge web page is pretty simple with only a login and register button. After spending a few minutes orientating myself with how the website works (with the aid of the source code), it was pretty evident that we needed to find a way to get some coins to purchase the flag.
