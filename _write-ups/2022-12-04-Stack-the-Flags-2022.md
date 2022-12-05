@@ -8,7 +8,7 @@ Introduction
 
 Stack the Flags 2022 is the second iteration of GovTech's Capture the Flag competition. In this year's iteration, my team competed in the University category and managed to finish in 2nd place. Of the 51 challenges in the CTF, there was one in particular that really pushed me outside my comfort zone and I  wanted to do a writeup to record some of the things I learnt in the process of solving it. 
 
----
+
 
 
 Cloud: Secrets of Meow Olympurr
@@ -88,7 +88,9 @@ I spent a couple minutes verifying the website really does what it says it does 
 1. We had another link and I wanted to see what's going on with that. 
 2. I conveniently forgot you could steal EC2 Metadata Credentials via SSRF. More on that [here](https://scalesec.com/blog/exploit-ssrf-to-gain-aws-credentials/).
 
-On to the next site we go. Visiting `https://meowolympurr.z23.web.core.windows.net/`, we are greeted with a familiar site. Could this be the origin server which the CDN is pulling data from? Wait... how did the challenge author register the `windows.net` domain? Surely that would belong to Microsoft, right? Hold on... the site is slightly different... There's something extra at the bottom. 
+On to the next site we go. Visiting `https://meowolympurr.z23.web.core.windows.net/`, we are greeted with a familiar site. 
+
+_Could this be the origin server which the CDN is pulling data from? Wait... how did the challenge author register the `windows.net` domain? Surely that would belong to Microsoft, right? Hold on... the site is slightly different... There's something extra at the bottom._ 
 
 ![extra](../../attachments/stf22/extra.png)
 
