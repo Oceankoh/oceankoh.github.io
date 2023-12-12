@@ -16,7 +16,7 @@ Cloud: Secrets of Meow Olympurr
 
 ### Preface
 
-This was my second cloud challenge. I actually quite enjoyed the cloud challenge in TISC 2022 (see the [writeup here](https://blog.puddle.sg/write-ups/2022-09-11-TISC-2022)) which was also made by the peeps over at GovTech, so I was looking forward to seeing Stack's cloud challenge. Throughout the writeup, you will notice that I reference the TISC challenge quite a bit because most of my thought process and approach actually stem from what I learned from the challenge. 
+This was my second cloud challenge. I actually quite enjoyed the cloud challenge in TISC 2022 (see the [writeup here](https://blog.puddl.ing/write-ups/2022-09-11-TISC-2022)) which was also made by the peeps over at GovTech, so I was looking forward to seeing Stack's cloud challenge. Throughout the writeup, you will notice that I reference the TISC challenge quite a bit because most of my thought process and approach actually stem from what I learned from the challenge. 
 
 ### Information Gathering
 
